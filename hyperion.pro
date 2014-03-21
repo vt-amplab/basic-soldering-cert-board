@@ -1,6 +1,6 @@
-update=3/21/2014 12:22:39 AM
+update=Fri 21 Mar 2014 11:56:01 AM EDT
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,11 +43,12 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../KiCad;../KiCad/libraries/EESCHEMA
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=../kicad_libraries/EESCHEMA
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -96,3 +97,5 @@ LibName39=w_relay
 LibName40=w_rtx
 LibName41=w_transistor
 LibName42=lloyd_custom
+[general]
+version=1
