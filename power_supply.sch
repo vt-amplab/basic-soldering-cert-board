@@ -969,4 +969,6 @@ Wire Notes Line
 	11050 850  11050 1900
 Wire Notes Line
 	11050 1900 9300 1900
+Text Notes 750  600  0    60   ~ 0
+Connectors -> current monitor -> Main Regulator -> 2 paths:\n    1. OVP -> phone/li-ion charger\n    2. Terminal Block
 $EndSCHEMATC
