@@ -352,7 +352,7 @@ GND
 Text Label 3900 4450 0    60   ~ 0
 V_PROTECTED
 Text Notes 650  3950 0    60   ~ 0
-Overvoltage protection circuit (for phone and Li-Ion chargers)
+Overvoltage protection circuit (for phone and Li-Ion chargers)\n        Cuts off at 5.1V (1.24(4.7K + 14.7K)/4.7K)
 Text Label 5950 4000 2    60   ~ 0
 V_PROTECTED
 $Comp
@@ -477,12 +477,12 @@ GND
 $Comp
 L CONN_2 P3
 U 1 1 5339B938
-P 9550 6050
-F 0 "P3" V 9500 6050 40  0000 C CNN
-F 1 "2-pin JST" V 9700 6050 40  0000 C CNN
-F 2 "" H 9550 6050 60  0000 C CNN
-F 3 "" H 9550 6050 60  0000 C CNN
-	1    9550 6050
+P 9500 6050
+F 0 "P3" V 9450 6050 40  0000 C CNN
+F 1 "2-pin JST" V 9650 6050 40  0000 C CNN
+F 2 "" H 9500 6050 60  0000 C CNN
+F 3 "" H 9500 6050 60  0000 C CNN
+	1    9500 6050
 	0    1    1    0   
 $EndComp
 Text Label 8150 5000 2    60   ~ 0
@@ -500,9 +500,9 @@ F 3 "~" H 8600 5200 60  0000 C CNN
 $EndComp
 Text Label 8600 5550 3    60   ~ 0
 GND
-Text Label 9450 5650 1    60   ~ 0
+Text Label 9400 5650 1    60   ~ 0
 VBAT
-Text Label 9650 5650 1    60   ~ 0
+Text Label 9600 5650 1    60   ~ 0
 GND
 $Comp
 L MCP73831/2 U3
@@ -882,9 +882,9 @@ Connection ~ 8600 5000
 Wire Wire Line
 	8600 5550 8600 5400
 Wire Wire Line
-	9450 5650 9450 5700
+	9400 5650 9400 5700
 Wire Wire Line
-	9650 5700 9650 5650
+	9600 5700 9600 5650
 Wire Notes Line
 	7000 4200 7000 6450
 Wire Notes Line
