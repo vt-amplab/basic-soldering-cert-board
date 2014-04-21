@@ -2,6 +2,7 @@ EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
+LIBS:conn
 LIBS:linear
 LIBS:regul
 LIBS:74xx
@@ -30,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:Custom_Parts
 LIBS:w_analog
+LIBS:w_connectors
 LIBS:w_device
 LIBS:w_logic
 LIBS:w_memory
@@ -39,7 +41,6 @@ LIBS:w_relay
 LIBS:w_rtx
 LIBS:w_transistor
 LIBS:lloyd_custom
-LIBS:w_connectors
 LIBS:power_supply-cache
 EELAYER 27 0
 EELAYER END
@@ -47,8 +48,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "Power Supply"
-Date "31 mar 2014"
-Rev ""
+Date "21 apr 2014"
+Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
 Comment2 "Up to 20V input"
@@ -56,556 +57,70 @@ Comment3 "Selectable 3.3V, 5V, adjustable (1.5V - 20V) output"
 Comment4 ""
 $EndDescr
 $Comp
-L LED D7
-U 1 1 532FC702
-P 9950 2350
-F 0 "D7" H 9950 2450 50  0000 C CNN
-F 1 "LED" H 9950 2250 50  0000 C CNN
-F 2 "~" H 9950 2350 60  0000 C CNN
-F 3 "~" H 9950 2350 60  0000 C CNN
-	1    9950 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D8
-U 1 1 532FC708
-P 9950 2700
-F 0 "D8" H 9950 2800 50  0000 C CNN
-F 1 "LED" H 9950 2600 50  0000 C CNN
-F 2 "~" H 9950 2700 60  0000 C CNN
-F 3 "~" H 9950 2700 60  0000 C CNN
-	1    9950 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D9
-U 1 1 532FC70E
-P 9950 3000
-F 0 "D9" H 9950 3100 50  0000 C CNN
-F 1 "LED" H 9950 2900 50  0000 C CNN
-F 2 "~" H 9950 3000 60  0000 C CNN
-F 3 "~" H 9950 3000 60  0000 C CNN
-	1    9950 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D10
-U 1 1 532FC714
-P 9950 3300
-F 0 "D10" H 9950 3400 50  0000 C CNN
-F 1 "LED" H 9950 3200 50  0000 C CNN
-F 2 "~" H 9950 3300 60  0000 C CNN
-F 3 "~" H 9950 3300 60  0000 C CNN
-	1    9950 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D11
-U 1 1 532FC71A
-P 9950 3600
-F 0 "D11" H 9950 3700 50  0000 C CNN
-F 1 "LED" H 9950 3500 50  0000 C CNN
-F 2 "~" H 9950 3600 60  0000 C CNN
-F 3 "~" H 9950 3600 60  0000 C CNN
-	1    9950 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D12
-U 1 1 532FC720
-P 9950 3950
-F 0 "D12" H 9950 4050 50  0000 C CNN
-F 1 "LED" H 9950 3850 50  0000 C CNN
-F 2 "~" H 9950 3950 60  0000 C CNN
-F 3 "~" H 9950 3950 60  0000 C CNN
-	1    9950 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D13
-U 1 1 532FC726
-P 9950 4250
-F 0 "D13" H 9950 4350 50  0000 C CNN
-F 1 "LED" H 9950 4150 50  0000 C CNN
-F 2 "~" H 9950 4250 60  0000 C CNN
-F 3 "~" H 9950 4250 60  0000 C CNN
-	1    9950 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D14
-U 1 1 532FC72C
-P 9950 4550
-F 0 "D14" H 9950 4650 50  0000 C CNN
-F 1 "LED" H 9950 4450 50  0000 C CNN
-F 2 "~" H 9950 4550 60  0000 C CNN
-F 3 "~" H 9950 4550 60  0000 C CNN
-	1    9950 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D15
-U 1 1 532FC732
-P 9950 4850
-F 0 "D15" H 9950 4950 50  0000 C CNN
-F 1 "LED" H 9950 4750 50  0000 C CNN
-F 2 "~" H 9950 4850 60  0000 C CNN
-F 3 "~" H 9950 4850 60  0000 C CNN
-	1    9950 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D16
-U 1 1 532FC738
-P 9950 5150
-F 0 "D16" H 9950 5250 50  0000 C CNN
-F 1 "LED" H 9950 5050 50  0000 C CNN
-F 2 "~" H 9950 5150 60  0000 C CNN
-F 3 "~" H 9950 5150 60  0000 C CNN
-	1    9950 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LM317L U4
-U 1 1 532FC73E
-P 1500 2850
-F 0 "U4" H 1500 2650 60  0000 C CNN
-F 1 "LM317L" H 1500 3050 60  0000 C CNN
-F 2 "" H 1500 2850 60  0000 C CNN
-F 3 "" H 1500 2850 60  0000 C CNN
-	1    1500 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R15
-U 1 1 532FC744
-P 2400 3100
-F 0 "R15" V 2480 3100 40  0000 C CNN
-F 1 "470" V 2407 3101 40  0000 C CNN
-F 2 "~" V 2330 3100 30  0000 C CNN
-F 3 "~" H 2400 3100 30  0000 C CNN
-	1    2400 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R16
-U 1 1 532FC74A
-P 2400 3700
-F 0 "R16" V 2480 3700 40  0000 C CNN
-F 1 "680" V 2407 3701 40  0000 C CNN
-F 2 "~" V 2330 3700 30  0000 C CNN
-F 3 "~" H 2400 3700 30  0000 C CNN
-	1    2400 3700
-	1    0    0    -1  
-$EndComp
-Text Label 2900 2850 0    60   ~ 0
-VLED
-$Comp
-L C C10
-U 1 1 532FC753
-P 2800 3200
-F 0 "C10" H 2800 3300 40  0000 L CNN
-F 1 "105" H 2806 3115 40  0000 L CNN
-F 2 "~" H 2838 3050 30  0000 C CNN
-F 3 "~" H 2800 3200 60  0000 C CNN
-	1    2800 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C9
-U 1 1 532FC759
-P 2800 2400
-F 0 "C9" H 2800 2500 40  0000 L CNN
-F 1 "104" H 2806 2315 40  0000 L CNN
-F 2 "~" H 2838 2250 30  0000 C CNN
-F 3 "~" H 2800 2400 60  0000 C CNN
-	1    2800 2400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8950 4000
-Text Label 8300 2100 1    60   ~ 0
-VLED
-Text Label 7450 2900 2    60   ~ 0
-LED_CLK
-Text Notes 3150 3350 0    60   ~ 0
-Output should be 3V.\n3 = 1.25(1 + 470/658)
-$Comp
-L CD4017 U7
-U 1 1 532FC7A2
-P 8300 3450
-F 0 "U7" H 8200 3300 60  0000 C CNN
-F 1 "CD4017" H 8200 3150 60  0000 C CNN
-F 2 "" H 8300 3450 60  0000 C CNN
-F 3 "" H 8300 3450 60  0000 C CNN
-	1    8300 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 2550 8300 2100
-Wire Wire Line
-	8300 4350 8300 4550
-Connection ~ 8300 4400
-Wire Wire Line
-	7550 4400 8300 4400
-Wire Wire Line
-	7650 2900 7450 2900
-Connection ~ 10450 2700
-Wire Wire Line
-	10150 2700 10450 2700
-Connection ~ 10450 3000
-Wire Wire Line
-	10150 3000 10450 3000
-Connection ~ 10450 3300
-Wire Wire Line
-	10150 3300 10450 3300
-Connection ~ 10450 3600
-Wire Wire Line
-	10150 3600 10450 3600
-Connection ~ 10450 3950
-Wire Wire Line
-	10150 3950 10450 3950
-Connection ~ 10450 4250
-Wire Wire Line
-	10150 4250 10450 4250
-Connection ~ 10450 4550
-Wire Wire Line
-	10150 4550 10450 4550
-Connection ~ 10450 4850
-Wire Wire Line
-	10150 4850 10450 4850
-Connection ~ 10450 5150
-Wire Wire Line
-	10150 5150 10450 5150
-Wire Wire Line
-	10450 2350 10450 5300
-Wire Wire Line
-	10150 2350 10450 2350
-Connection ~ 7550 3200
-Wire Wire Line
-	7650 3200 7550 3200
-Wire Wire Line
-	2800 2200 2800 2050
-Connection ~ 2800 2750
-Wire Wire Line
-	2800 2750 2800 2600
-Wire Wire Line
-	1900 2750 2900 2750
-Connection ~ 2800 2850
-Wire Wire Line
-	2800 2850 2800 3000
-Wire Wire Line
-	1900 2850 2900 2850
-Wire Wire Line
-	2400 3950 2400 4050
-Connection ~ 2400 3400
-Wire Wire Line
-	2400 3350 2400 3450
-Wire Wire Line
-	1900 3400 2400 3400
-Connection ~ 2400 2850
-Wire Wire Line
-	1900 2950 1900 3400
-Wire Wire Line
-	9150 5150 9750 5150
-Wire Wire Line
-	9150 3800 9150 5150
-Wire Wire Line
-	8950 3800 9150 3800
-Wire Wire Line
-	9250 3700 8950 3700
-Wire Wire Line
-	9250 4850 9250 3700
-Wire Wire Line
-	9750 4850 9250 4850
-Wire Wire Line
-	9350 4550 9750 4550
-Wire Wire Line
-	9350 3600 9350 4550
-Wire Wire Line
-	8950 3600 9350 3600
-Wire Wire Line
-	9450 3500 8950 3500
-Wire Wire Line
-	9450 4250 9450 3500
-Wire Wire Line
-	9750 4250 9450 4250
-Wire Wire Line
-	9550 3950 9750 3950
-Wire Wire Line
-	9550 3400 9550 3950
-Wire Wire Line
-	8950 3400 9550 3400
-Wire Wire Line
-	9650 3300 8950 3300
-Wire Wire Line
-	9650 3600 9650 3300
-Wire Wire Line
-	9750 3600 9650 3600
-Wire Wire Line
-	9750 3200 9750 3300
-Wire Wire Line
-	8950 3200 9750 3200
-Wire Wire Line
-	9350 3100 8950 3100
-Wire Wire Line
-	9350 3000 9350 3100
-Wire Wire Line
-	9750 3000 9350 3000
-Wire Wire Line
-	9250 2700 9750 2700
-Wire Wire Line
-	9250 3000 9250 2700
-Wire Wire Line
-	8950 3000 9250 3000
-Wire Wire Line
-	9150 2900 8950 2900
-Wire Wire Line
-	9150 2350 9150 2900
-Wire Wire Line
-	9750 2350 9150 2350
-Wire Wire Line
-	7550 3000 7550 4400
-Wire Wire Line
-	7650 3000 7550 3000
-$Comp
 L AD8418 U5
 U 1 1 532FC7FA
-P 2100 6050
-F 0 "U5" H 2100 5700 60  0000 C CNN
-F 1 "AD8418" H 2100 6400 60  0000 C CNN
-F 2 "" H 2100 6000 60  0000 C CNN
-F 3 "" H 2100 6000 60  0000 C CNN
-	1    2100 6050
+P 3250 3500
+F 0 "U5" H 3250 3150 60  0000 C CNN
+F 1 "AD8418" H 3250 3850 60  0000 C CNN
+F 2 "" H 3250 3450 60  0000 C CNN
+F 3 "" H 3250 3450 60  0000 C CNN
+	1    3250 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R14
 U 1 1 532FC800
-P 2100 5400
-F 0 "R14" V 2180 5400 40  0000 C CNN
-F 1 ".05" V 2107 5401 40  0000 C CNN
-F 2 "~" V 2030 5400 30  0000 C CNN
-F 3 "~" H 2100 5400 30  0000 C CNN
-	1    2100 5400
+P 3250 2850
+F 0 "R14" V 3330 2850 40  0000 C CNN
+F 1 ".05" V 3257 2851 40  0000 C CNN
+F 2 "~" V 3180 2850 30  0000 C CNN
+F 3 "~" H 3250 2850 30  0000 C CNN
+	1    3250 2850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1650 5850 1500 5850
+	2800 3300 2650 3300
 Wire Wire Line
-	1500 5850 1500 5400
+	2650 3300 2650 2850
 Wire Wire Line
-	1450 5400 1850 5400
+	2600 2850 3000 2850
 Wire Wire Line
-	2350 5400 2800 5400
+	3500 2850 3950 2850
 Wire Wire Line
-	2750 5400 2750 5850
+	3900 2850 3900 3300
 Wire Wire Line
-	2750 5850 2550 5850
+	3900 3300 3700 3300
 Wire Wire Line
-	2550 6000 2800 6000
-Text Label 2800 6000 0    60   ~ 0
+	3700 3450 3950 3450
+Text Label 3950 3450 0    60   ~ 0
 VLED
 Wire Wire Line
-	2550 6150 2800 6150
+	3700 3600 3950 3600
 Wire Wire Line
-	1650 6000 1450 6000
+	2800 3450 2600 3450
 Wire Wire Line
-	1650 6150 1450 6150
+	2800 3600 2600 3600
 Wire Wire Line
-	1450 6150 1450 6250
+	2600 3600 2600 3700
 Wire Wire Line
-	1450 6250 1650 6250
+	2600 3700 2800 3700
 Wire Wire Line
-	1450 6200 1350 6200
-Connection ~ 1450 6200
-Text Label 1350 6200 2    60   ~ 0
+	2600 3650 2500 3650
+Connection ~ 2600 3650
+Text Label 2500 3650 2    60   ~ 0
 VLED
-Connection ~ 1500 5400
-Connection ~ 2750 5400
-Text Label 2800 6150 0    60   ~ 0
+Connection ~ 2650 2850
+Connection ~ 3900 2850
+Text Label 3950 3600 0    60   ~ 0
 VCONTROL
-Text Notes 1500 6600 0    60   ~ 0
+Text Notes 2650 4050 0    60   ~ 0
 1.5 <= VCONTROL <= 3V\nThis produces frequencies from \naround 10Hz to around 45Hz, \nwhich looks decent on with the\nscanning animation.\n\nAt 0A, it will output 3.3V,\nat 1.5A, it will output about\n1.65V.
-Text Notes 1750 5200 0    60   ~ 0
+Text Notes 2900 2650 0    60   ~ 0
 Current sensor
-Text HLabel 2800 5400 2    60   Output ~ 0
+Text HLabel 3950 2850 2    60   Output ~ 0
 VMONITORED
-Text HLabel 1450 5400 0    60   Input ~ 0
+Text HLabel 2600 2850 0    60   Input ~ 0
 VIN
-Text HLabel 2900 2750 2    60   Input ~ 0
-VIN
-$Comp
-L TLC555 U6
-U 1 1 532FDE60
-P 5750 6600
-F 0 "U6" H 5750 6250 60  0000 C CNN
-F 1 "TLC555" H 5750 6950 60  0000 C CNN
-F 2 "" H 5750 6600 60  0000 C CNN
-F 3 "" H 5750 6600 60  0000 C CNN
-	1    5750 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C12
-U 1 1 532FDE66
-P 5750 7100
-F 0 "C12" H 5750 7200 40  0000 L CNN
-F 1 "104" H 5756 7015 40  0000 L CNN
-F 2 "~" H 5788 6950 30  0000 C CNN
-F 3 "~" H 5750 7100 60  0000 C CNN
-	1    5750 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L C C13
-U 1 1 532FDE6D
-P 6000 5650
-F 0 "C13" H 6000 5750 40  0000 L CNN
-F 1 "104" H 6006 5565 40  0000 L CNN
-F 2 "~" H 6038 5500 30  0000 C CNN
-F 3 "~" H 6000 5650 60  0000 C CNN
-	1    6000 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C11
-U 1 1 532FDE73
-P 5350 5800
-F 0 "C11" H 5350 5900 40  0000 L CNN
-F 1 "104" H 5356 5715 40  0000 L CNN
-F 2 "~" H 5388 5650 30  0000 C CNN
-F 3 "~" H 5350 5800 60  0000 C CNN
-	1    5350 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R18
-U 1 1 532FDE7B
-P 4650 5900
-F 0 "R18" V 4730 5900 40  0000 C CNN
-F 1 "100K" V 4657 5901 40  0000 C CNN
-F 2 "~" V 4580 5900 30  0000 C CNN
-F 3 "~" H 4650 5900 30  0000 C CNN
-	1    4650 5900
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R17
-U 1 1 532FDE81
-P 4400 7000
-F 0 "R17" V 4480 7000 40  0000 C CNN
-F 1 "27K" V 4407 7001 40  0000 C CNN
-F 2 "~" V 4330 7000 30  0000 C CNN
-F 3 "~" H 4400 7000 30  0000 C CNN
-	1    4400 7000
-	0    1    1    0   
-$EndComp
-Text Label 6400 5300 1    60   ~ 0
-VLED
-Text Label 6600 6600 0    60   ~ 0
-LED_CLK
-Connection ~ 6400 5450
-Wire Wire Line
-	4650 5450 6400 5450
-Connection ~ 4800 6800
-Wire Wire Line
-	5150 6800 4800 6800
-Connection ~ 4650 6600
-Wire Wire Line
-	4800 6700 5150 6700
-Wire Wire Line
-	4400 6600 5150 6600
-Wire Wire Line
-	4650 6150 4650 6750
-Connection ~ 4850 5450
-Wire Wire Line
-	4650 5450 4650 5650
-Wire Wire Line
-	5350 6050 5350 6000
-Wire Wire Line
-	5350 5550 5350 5600
-Wire Wire Line
-	4950 5550 5450 5550
-Wire Wire Line
-	4950 6400 4950 5550
-Wire Wire Line
-	5150 6400 4950 6400
-Connection ~ 6000 5450
-Wire Wire Line
-	4850 6500 5150 6500
-Wire Wire Line
-	4850 5450 4850 6500
-Wire Wire Line
-	6000 5850 6000 5950
-Wire Wire Line
-	6400 5300 6400 6400
-Wire Wire Line
-	6350 6800 6650 6800
-Wire Wire Line
-	6400 6400 6350 6400
-Wire Wire Line
-	6600 6600 6350 6600
-$Comp
-L POT RV4
-U 1 1 532FDEA0
-P 4400 6750
-F 0 "RV4" H 4400 6650 50  0000 C CNN
-F 1 "100K" H 4400 6750 50  0000 C CNN
-F 2 "~" H 4400 6750 60  0000 C CNN
-F 3 "~" H 4400 6750 60  0000 C CNN
-	1    4400 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 7000 4150 6750
-Connection ~ 5350 5550
-Text Label 5450 5550 0    60   ~ 0
-VCONTROL
-Wire Wire Line
-	4650 7000 4800 7000
-Connection ~ 4800 7000
-Wire Wire Line
-	6450 7100 5950 7100
-Wire Wire Line
-	5550 7100 4800 7100
-Wire Wire Line
-	4800 7100 4800 6700
-Wire Wire Line
-	6450 6800 6450 7100
-Text Notes 5250 5350 0    60   ~ 0
-Clock Generator
-$Comp
-L R R19
-U 1 1 533055BA
-P 10450 5550
-F 0 "R19" V 10530 5550 40  0000 C CNN
-F 1 "100" V 10457 5551 40  0000 C CNN
-F 2 "~" V 10380 5550 30  0000 C CNN
-F 3 "~" H 10450 5550 30  0000 C CNN
-	1    10450 5550
-	1    0    0    -1  
-$EndComp
-Text HLabel 2800 2050 1    60   Input ~ 0
-GND
-Text HLabel 2800 3450 3    60   Input ~ 0
-GND
-Text HLabel 1450 6000 0    60   Input ~ 0
-GND
-Text HLabel 10450 5850 3    60   Input ~ 0
-GND
-Wire Wire Line
-	10450 5850 10450 5800
-Text HLabel 8300 4550 3    60   Input ~ 0
-GND
-Wire Wire Line
-	2800 3450 2800 3400
-Text HLabel 2400 4050 3    60   Input ~ 0
-GND
-Text HLabel 6650 6800 2    60   Input ~ 0
-GND
-Connection ~ 6450 6800
-Text HLabel 6000 5950 3    60   Input ~ 0
-GND
-Text HLabel 5350 6050 3    60   Input ~ 0
+Text HLabel 2600 3450 0    60   Input ~ 0
 GND
 $EndSCHEMATC
