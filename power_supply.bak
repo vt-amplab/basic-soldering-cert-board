@@ -1,34 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:Custom_Parts
 LIBS:lloyd_custom
 LIBS:w_analog
@@ -41,12 +11,13 @@ LIBS:w_opto
 LIBS:w_relay
 LIBS:w_rtx
 LIBS:w_transistor
+LIBS:power_supply
 LIBS:power_supply-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "5V Battery Power Supply"
 Date "13 jun 2014"
 Rev "2"
@@ -56,4 +27,215 @@ Comment2 "5V walwart or USB input"
 Comment3 "5V, 1A output"
 Comment4 ""
 $EndDescr
+$Comp
+L MCP73833 U?
+U 1 1 539B5EF0
+P 3500 2950
+F 0 "U?" H 3500 2650 60  0000 C CNN
+F 1 "MCP73833" H 3500 3250 60  0000 C CNN
+F 2 "~" H 3500 2800 60  0000 C CNN
+F 3 "~" H 3500 2800 60  0000 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB J?
+U 1 1 539B5F0C
+P 1150 1250
+F 0 "J?" H 950 1250 60  0000 C CNN
+F 1 "USB" H 900 1600 60  0000 C CNN
+F 2 "~" H 1050 1350 60  0000 C CNN
+F 3 "~" H 1050 1350 60  0000 C CNN
+	1    1150 1250
+	1    0    0    -1  
+$EndComp
+Text Label 1700 1450 0    60   ~ 0
+VSS
+Text Label 1700 1050 0    60   ~ 0
+VDD
+NoConn ~ 1600 1150
+NoConn ~ 1600 1250
+NoConn ~ 1600 1350
+Text Label 1900 2800 2    60   ~ 0
+VDD
+$Comp
+L C C?
+U 1 1 539B5F60
+P 2000 2900
+F 0 "C?" H 2050 2910 50  0000 L CNN
+F 1 "4.7uF" H 2050 2840 50  0000 L CNN
+F 2 "" H 2000 2900 60  0000 C CNN
+F 3 "" H 2000 2900 60  0000 C CNN
+	1    2000 2900
+	1    0    0    -1  
+$EndComp
+Text Label 2000 3050 3    60   ~ 0
+VSS
+Text Label 5150 2800 0    60   ~ 0
+VBAT
+$Comp
+L C C?
+U 1 1 539B5FA3
+P 5100 2900
+F 0 "C?" H 5150 2910 50  0000 L CNN
+F 1 "4.7uF" H 5150 2840 50  0000 L CNN
+F 2 "" H 5100 2900 60  0000 C CNN
+F 3 "" H 5100 2900 60  0000 C CNN
+	1    5100 2900
+	1    0    0    -1  
+$EndComp
+Text Label 5100 3050 3    60   ~ 0
+VSS
+$Comp
+L R R?
+U 1 1 539B5FBE
+P 2700 2950
+F 0 "R?" V 2750 2800 50  0000 C CNN
+F 1 "1.5K" V 2750 2950 50  0000 C CNN
+F 2 "" H 2700 2950 60  0000 C CNN
+F 3 "" H 2700 2950 60  0000 C CNN
+	1    2700 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 539B5FCB
+P 2700 3050
+F 0 "R?" V 2750 2900 50  0000 C CNN
+F 1 "1.5K" V 2750 3050 50  0000 C CNN
+F 2 "" H 2700 3050 60  0000 C CNN
+F 3 "" H 2700 3050 60  0000 C CNN
+	1    2700 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 539B5FD1
+P 4300 3050
+F 0 "R?" V 4350 2900 50  0000 C CNN
+F 1 "1.5K" V 4350 3050 50  0000 C CNN
+F 2 "" H 4300 3050 60  0000 C CNN
+F 3 "" H 4300 3050 60  0000 C CNN
+	1    4300 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED LD?
+U 1 1 539B6061
+P 2450 2950
+F 0 "LD?" H 2400 3000 40  0000 C CNN
+F 1 "LED" H 2550 3000 40  0000 C CNN
+F 2 "~" H 2450 2950 60  0000 C CNN
+F 3 "~" H 2450 2950 60  0000 C CNN
+	1    2450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LD?
+U 1 1 539B6067
+P 2450 3050
+F 0 "LD?" H 2400 3100 40  0000 C CNN
+F 1 "LED" H 2550 3100 40  0000 C CNN
+F 2 "~" H 2450 3050 60  0000 C CNN
+F 3 "~" H 2450 3050 60  0000 C CNN
+	1    2450 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LD?
+U 1 1 539B606D
+P 4550 3050
+F 0 "LD?" H 4500 3100 40  0000 C CNN
+F 1 "LED" H 4650 3100 40  0000 C CNN
+F 2 "~" H 4550 3050 60  0000 C CNN
+F 3 "~" H 4550 3050 60  0000 C CNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 539B617E
+P 4100 3350
+F 0 "R?" V 4150 3350 50  0000 C CNN
+F 1 "1K" V 4050 3350 50  0000 C CNN
+F 2 "" H 4100 3350 60  0000 C CNN
+F 3 "" H 4100 3350 60  0000 C CNN
+	1    4100 3350
+	1    0    0    -1  
+$EndComp
+Text Label 4100 3550 3    60   ~ 0
+VSS
+Text Label 2800 3150 2    60   ~ 0
+VSS
+Text Label 4750 3050 0    60   ~ 0
+VDD
+Wire Wire Line
+	1600 1450 1700 1450
+Wire Wire Line
+	1600 1050 1700 1050
+Wire Wire Line
+	2900 2850 2900 2750
+Wire Wire Line
+	1900 2800 2900 2800
+Connection ~ 2900 2800
+Wire Wire Line
+	2000 2850 2000 2800
+Connection ~ 2000 2800
+Wire Wire Line
+	2000 3000 2000 3050
+Wire Wire Line
+	4100 2750 4100 2850
+Wire Wire Line
+	4100 2800 5150 2800
+Connection ~ 4100 2800
+Wire Wire Line
+	5100 2850 5100 2800
+Wire Wire Line
+	5100 3000 5100 3050
+Connection ~ 5100 2800
+Wire Wire Line
+	2900 2950 2800 2950
+Wire Wire Line
+	2800 3050 2900 3050
+Wire Wire Line
+	4100 3050 4200 3050
+Wire Wire Line
+	4400 3050 4450 3050
+Wire Wire Line
+	2550 3050 2600 3050
+Wire Wire Line
+	2600 2950 2550 2950
+Wire Wire Line
+	2350 2950 2350 2800
+Connection ~ 2350 2800
+Wire Wire Line
+	2300 2800 2300 3050
+Wire Wire Line
+	2300 3050 2350 3050
+Connection ~ 2300 2800
+Wire Wire Line
+	4650 3050 4750 3050
+Wire Wire Line
+	4100 3250 4100 3150
+Wire Wire Line
+	4100 3450 4100 3550
+Wire Wire Line
+	2900 3150 2800 3150
+Wire Wire Line
+	4100 2950 4200 2950
+$Comp
+L THERMISTOR RT?
+U 1 1 539B6353
+P 4400 2950
+F 0 "RT?" V 4450 2750 60  0000 C CNN
+F 1 "10K" V 4450 3050 60  0000 C CNN
+F 2 "" H 4400 2950 60  0000 C CNN
+F 3 "" H 4400 2950 60  0000 C CNN
+	1    4400 2950
+	0    -1   -1   0   
+$EndComp
+Text Label 4750 2950 0    60   ~ 0
+VSS
+Wire Wire Line
+	4750 2950 4650 2950
 $EndSCHEMATC
