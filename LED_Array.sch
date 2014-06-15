@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:power_supply-cache
+LIBS:power_supply
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
@@ -111,11 +81,11 @@ F 3 "~" H 4450 2600 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 1900 4950 1900
+	4600 1900 4950 1900
 Wire Wire Line
-	4700 2250 4950 2250
+	4600 2250 4950 2250
 Wire Wire Line
-	4700 2600 4950 2600
+	4600 2600 4950 2600
 Text HLabel 4200 1900 0    60   Output ~ 0
 LED1
 Text HLabel 4200 2250 0    60   Output ~ 0
@@ -134,4 +104,10 @@ Connection ~ 5550 1900
 Wire Wire Line
 	5550 2600 5350 2600
 Connection ~ 5550 2250
+Wire Wire Line
+	4200 1900 4300 1900
+Wire Wire Line
+	4300 2250 4200 2250
+Wire Wire Line
+	4200 2600 4300 2600
 $EndSCHEMATC
