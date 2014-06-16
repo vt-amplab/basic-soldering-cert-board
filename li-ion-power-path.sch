@@ -1,0 +1,324 @@
+EESchema Schematic File Version 2
+LIBS:power_supply
+LIBS:power_supply-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date "16 jun 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP73833 U?
+U 1 1 539FD287
+P 5000 3250
+F 0 "U?" H 5000 2950 60  0000 C CNN
+F 1 "MCP73833" H 5000 3550 60  0000 C CNN
+F 2 "~" H 5000 3100 60  0000 C CNN
+F 3 "~" H 5000 3100 60  0000 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
+Text Label 3750 3100 2    60   ~ 0
+VDD
+$Comp
+L C C?
+U 1 1 539FD28E
+P 3850 3450
+F 0 "C?" H 3900 3550 50  0000 L CNN
+F 1 "4.7uF" H 3900 3350 50  0000 L CNN
+F 2 "" H 3850 3450 60  0000 C CNN
+F 3 "" H 3850 3450 60  0000 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+Text Label 3850 3800 3    60   ~ 0
+VSS
+$Comp
+L C C?
+U 1 1 539FD295
+P 6300 3350
+F 0 "C?" H 6350 3450 50  0000 L CNN
+F 1 "4.7uF" H 6350 3250 50  0000 L CNN
+F 2 "" H 6300 3350 60  0000 C CNN
+F 3 "" H 6300 3350 60  0000 C CNN
+	1    6300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 539FD29B
+P 5000 3700
+F 0 "R?" V 5050 3900 50  0000 C CNN
+F 1 "1K" V 5050 3700 50  0000 C CNN
+F 2 "" H 5000 3700 60  0000 C CNN
+F 3 "" H 5000 3700 60  0000 C CNN
+	1    5000 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L THERMISTOR RT?
+U 1 1 539FD2A1
+P 5850 3500
+F 0 "RT?" V 5775 3325 40  0000 C CNN
+F 1 "10K" V 5750 3600 40  0000 C CNN
+F 2 "" H 5850 3500 60  0000 C CNN
+F 3 "" H 5850 3500 60  0000 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BATT U?
+U 1 1 539FD2A7
+P 7100 3250
+F 0 "U?" V 7175 3225 40  0000 C CNN
+F 1 "BATT" V 7050 3225 40  0000 C CNN
+F 2 "" H 7100 3250 60  0000 C CNN
+F 3 "" H 7100 3250 60  0000 C CNN
+	1    7100 3250
+	1    0    0    -1  
+$EndComp
+Text Label 7150 3100 0    60   ~ 0
+VBAT
+Text Label 7100 3450 3    60   ~ 0
+VSS
+Text Label 3900 4600 2    60   ~ 0
+VDD
+$Comp
+L FDC6392S U?
+U 1 1 539FD2B0
+P 4700 4700
+F 0 "U?" H 4700 4400 60  0000 C CNN
+F 1 "FDC6392S" H 4700 4950 60  0000 C CNN
+F 2 "" H 4700 4600 60  0000 C CNN
+F 3 "" H 4700 4600 60  0000 C CNN
+	1    4700 4700
+	1    0    0    -1  
+$EndComp
+Text Label 3900 4350 2    60   ~ 0
+VSYS
+Text Label 5100 4800 0    60   ~ 0
+VBAT
+$Comp
+L R R?
+U 1 1 539FD2B8
+P 4600 5150
+F 0 "R?" V 4550 5150 50  0000 C CNN
+F 1 "100k" V 4650 5150 50  0000 C CNN
+F 2 "" H 4600 5150 60  0000 C CNN
+F 3 "" H 4600 5150 60  0000 C CNN
+	1    4600 5150
+	0    -1   -1   0   
+$EndComp
+Text Label 4900 5150 0    60   ~ 0
+VSS
+$Comp
+L R R?
+U 1 1 539FD2BF
+P 6000 3500
+F 0 "R?" V 5950 3700 50  0000 C CNN
+F 1 "1K" V 5950 3500 50  0000 C CNN
+F 2 "" H 6000 3500 60  0000 C CNN
+F 3 "" H 6000 3500 60  0000 C CNN
+	1    6000 3500
+	-1   0    0    1   
+$EndComp
+Text Label 6000 3950 3    60   ~ 0
+VSS
+$Comp
+L LED D?
+U 1 1 539FD2C6
+P 4200 2800
+F 0 "D?" H 4300 2850 40  0000 C CNN
+F 1 "LED" H 4100 2850 40  0000 C CNN
+F 2 "~" H 4200 2800 60  0000 C CNN
+F 3 "~" H 4200 2800 60  0000 C CNN
+	1    4200 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED 1.5k?
+U 1 1 539FD2CC
+P 4300 2800
+F 0 "1.5k?" H 4400 2850 40  0000 C CNN
+F 1 "LED" H 4200 2850 40  0000 C CNN
+F 2 "~" H 4300 2800 60  0000 C CNN
+F 3 "~" H 4300 2800 60  0000 C CNN
+	1    4300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 539FD2D2
+P 5650 2800
+F 0 "D?" H 5750 2850 40  0000 C CNN
+F 1 "LED" H 5550 2850 40  0000 C CNN
+F 2 "~" H 5650 2800 60  0000 C CNN
+F 3 "~" H 5650 2800 60  0000 C CNN
+	1    5650 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 539FD2D8
+P 4200 2450
+F 0 "R?" V 4150 2400 40  0000 C CNN
+F 1 "1.5k" V 4150 2550 40  0000 C CNN
+F 2 "~" V 4130 2450 30  0000 C CNN
+F 3 "~" H 4200 2450 30  0000 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 539FD2DE
+P 4300 2450
+F 0 "R?" V 4375 2400 40  0000 C CNN
+F 1 "1.5k" V 4375 2550 40  0000 C CNN
+F 2 "~" V 4230 2450 30  0000 C CNN
+F 3 "~" H 4300 2450 30  0000 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 539FD2E4
+P 5650 2450
+F 0 "R?" V 5725 2400 40  0000 C CNN
+F 1 "1.5k" V 5725 2550 40  0000 C CNN
+F 2 "~" V 5580 2450 30  0000 C CNN
+F 3 "~" H 5650 2450 30  0000 C CNN
+	1    5650 2450
+	1    0    0    -1  
+$EndComp
+Text Label 4100 2100 2    60   ~ 0
+VDD
+Wire Wire Line
+	4400 3050 4400 3150
+Connection ~ 4400 3100
+Wire Wire Line
+	5600 3050 5600 3150
+Wire Wire Line
+	5600 3100 7150 3100
+Connection ~ 5600 3100
+Connection ~ 6600 3100
+Wire Wire Line
+	7100 3100 7100 3150
+Connection ~ 7100 3100
+Wire Wire Line
+	7100 3400 7100 3450
+Wire Wire Line
+	4300 4700 4400 4700
+Wire Wire Line
+	4750 5150 4900 5150
+Wire Wire Line
+	5600 3350 5650 3350
+Wire Wire Line
+	3750 3100 4400 3100
+Wire Wire Line
+	6000 3650 6000 3950
+Wire Wire Line
+	4400 3450 4400 3700
+Wire Wire Line
+	3850 3700 4850 3700
+Wire Wire Line
+	5600 3700 5600 3450
+Wire Wire Line
+	5150 3700 5600 3700
+Wire Wire Line
+	5600 3250 6000 3250
+Connection ~ 5850 3250
+Wire Wire Line
+	6300 3100 6300 3250
+Connection ~ 6300 3100
+Wire Wire Line
+	6300 3450 6300 3900
+Wire Wire Line
+	6300 3900 5850 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	5850 3900 5850 3700
+Connection ~ 4400 3700
+Connection ~ 3850 3700
+Wire Wire Line
+	4300 3350 4400 3350
+Wire Wire Line
+	4400 3250 4200 3250
+Wire Wire Line
+	4300 4700 4300 4350
+Connection ~ 4300 4350
+Wire Wire Line
+	3900 4600 4400 4600
+Wire Wire Line
+	4200 4600 4200 5150
+Wire Wire Line
+	4200 4800 4400 4800
+Connection ~ 4200 4800
+Wire Wire Line
+	4200 5150 4450 5150
+Connection ~ 4200 4600
+Wire Wire Line
+	5000 4600 5100 4600
+Wire Wire Line
+	5100 4600 5100 4350
+Wire Wire Line
+	5100 4350 3900 4350
+Wire Wire Line
+	5100 4800 5000 4800
+Wire Wire Line
+	6000 3250 6000 3350
+Wire Wire Line
+	5850 3250 5850 3350
+Wire Wire Line
+	3850 3100 3850 3350
+Connection ~ 3850 3100
+Wire Wire Line
+	3850 3550 3850 3800
+Wire Wire Line
+	4200 3250 4200 2900
+Wire Wire Line
+	4300 3350 4300 2900
+Wire Wire Line
+	5650 3350 5650 2900
+Wire Wire Line
+	4200 2600 4200 2700
+Wire Wire Line
+	5650 2600 5650 2700
+Wire Wire Line
+	4300 2700 4300 2600
+Wire Wire Line
+	4100 2100 5650 2100
+Wire Wire Line
+	5650 2100 5650 2300
+Wire Wire Line
+	4300 2300 4300 2100
+Connection ~ 4300 2100
+Wire Wire Line
+	4200 2300 4200 2100
+Connection ~ 4200 2100
+Text Label 2000 1350 0    60   ~ 0
+VDD
+Text Label 2000 1550 0    60   ~ 0
+VSS
+Wire Wire Line
+	1750 1350 2000 1350
+Text HLabel 1750 1350 0    60   Input ~ 0
+VDD
+Wire Wire Line
+	1750 1550 2000 1550
+Text HLabel 1750 1550 0    60   Input ~ 0
+VSS
+Text Label 2000 1700 0    60   ~ 0
+VSYS
+Wire Wire Line
+	1750 1700 2000 1700
+Text HLabel 1750 1700 0    60   Input ~ 0
+VSYS
+$EndSCHEMATC
