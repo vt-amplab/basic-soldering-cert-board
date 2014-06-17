@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "5V Battery Power Supply"
-Date "16 jun 2014"
+Date "17 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -19,8 +19,6 @@ Text Label 1775 2025 0    60   ~ 0
 VSS
 Text Label 1775 1625 0    60   ~ 0
 VDD
-NoConn ~ 1675 1725
-NoConn ~ 1675 1825
 NoConn ~ 1675 1925
 $Comp
 L USB-MICRO U?
@@ -485,21 +483,21 @@ Text Notes 1725 7425 0    60   ~ 0
 $Comp
 L USB J?
 U 1 1 53A02AE3
-P 9425 6225
-F 0 "J?" V 9375 6225 60  0000 C CNN
-F 1 "USB" H 9425 6475 60  0000 C CNN
-F 2 "~" H 9425 6075 60  0000 C CNN
-F 3 "~" H 9425 6075 60  0000 C CNN
-	1    9425 6225
+P 9875 5975
+F 0 "J?" V 9825 5975 60  0000 C CNN
+F 1 "USB" H 9875 6225 60  0000 C CNN
+F 2 "~" H 9875 5825 60  0000 C CNN
+F 3 "~" H 9875 5825 60  0000 C CNN
+	1    9875 5975
 	1    0    0    -1  
 $EndComp
-Text Label 9825 6075 0    60   ~ 0
+Text Label 10275 5825 0    60   ~ 0
 VOUT
-Text Label 9825 6375 0    60   ~ 0
+Text Label 10275 6125 0    60   ~ 0
 VSS
-Text Label 9825 6175 0    60   ~ 0
+Text Label 10275 5925 0    60   ~ 0
 D-
-Text Label 9825 6275 0    60   ~ 0
+Text Label 10275 6025 0    60   ~ 0
 D+
 $Comp
 L R R?
@@ -604,17 +602,6 @@ F 3 "" H 6575 6800 60  0000 C CNN
 F 4 "TS53YJ-100KCT-ND" H 6575 6800 60  0001 C CNN "Digikey Product Number"
 	1    6575 6800
 	0    1    1    0   
-$EndComp
-$Comp
-L SCHOTTKY D?
-U 1 1 53A07598
-P 9850 4350
-F 0 "D?" H 9950 4300 40  0000 C CNN
-F 1 "SCHOTTKY" H 9850 4400 40  0000 C CNN
-F 2 "" H 9850 4350 60  0000 C CNN
-F 3 "" H 9850 4350 60  0000 C CNN
-	1    9850 4350
-	1    0    0    -1  
 $EndComp
 $Comp
 L MCP73833 U?
@@ -1125,13 +1112,13 @@ Wire Wire Line
 Wire Wire Line
 	2050 7225 1900 7225
 Wire Wire Line
-	9675 6075 9825 6075
+	10125 5825 10275 5825
 Wire Wire Line
-	9675 6375 9825 6375
+	10125 6125 10275 6125
 Wire Wire Line
-	9675 6175 9825 6175
+	10125 5925 10275 5925
 Wire Wire Line
-	9675 6275 9825 6275
+	10125 6025 10275 6025
 Wire Wire Line
 	6050 6225 6050 6125
 Wire Wire Line
@@ -1279,21 +1266,81 @@ Wire Wire Line
 $Comp
 L PTC F?
 U 1 1 53A0B4AA
-P 10250 4350
-F 0 "F?" H 10300 4300 40  0000 C CNN
-F 1 "PTC" H 10150 4375 40  0000 C CNN
-F 2 "" H 10250 4350 60  0000 C CNN
-F 3 "" H 10250 4350 60  0000 C CNN
-	1    10250 4350
+P 9900 4350
+F 0 "F?" H 9950 4300 40  0000 C CNN
+F 1 "PTC" H 9800 4375 40  0000 C CNN
+F 2 "" H 9900 4350 60  0000 C CNN
+F 3 "" H 9900 4350 60  0000 C CNN
+	1    9900 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9550 4275 9550 4350
 Connection ~ 9550 4350
 Wire Wire Line
-	10100 4350 9950 4350
-Wire Wire Line
-	10400 4350 10525 4350
-Text Label 10525 4350 0    60   ~ 0
+	10050 4350 10175 4350
+Text Label 10175 4350 0    60   ~ 0
 VOUT
+$Comp
+L TPD2E001DRL U?
+U 1 1 539F96A5
+P 2650 1825
+F 0 "U?" H 2750 1825 40  0000 C CNN
+F 1 "TPD2E001DRL" H 2650 2025 40  0000 C CNN
+F 2 "" H 2650 1825 60  0000 C CNN
+F 3 "" H 2650 1825 60  0000 C CNN
+	1    2650 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L TPD2E001DRL U?
+U 1 1 539F96B2
+P 8475 5975
+F 0 "U?" H 8575 5975 40  0000 C CNN
+F 1 "TPD2E001DRL" H 8475 6175 40  0000 C CNN
+F 2 "" H 8475 5975 60  0000 C CNN
+F 3 "" H 8475 5975 60  0000 C CNN
+	1    8475 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2125 2550 2200
+Wire Wire Line
+	2550 2200 2100 2200
+Wire Wire Line
+	2100 2200 2100 1825
+Wire Wire Line
+	2100 1825 1675 1825
+Wire Wire Line
+	1675 1725 2100 1725
+Wire Wire Line
+	2100 1725 2100 1425
+Wire Wire Line
+	2100 1425 2550 1425
+Wire Wire Line
+	2550 1425 2550 1525
+Wire Wire Line
+	2750 1525 2750 1425
+Text Label 2750 1425 1    60   ~ 0
+VDD
+Text Label 2750 2225 3    60   ~ 0
+VSS
+Wire Wire Line
+	2750 2125 2750 2225
+Text Label 8925 5875 0    60   ~ 0
+VSS
+Wire Wire Line
+	8775 5875 8925 5875
+Text Label 8025 5875 2    60   ~ 0
+VOUT
+Wire Wire Line
+	8025 5875 8175 5875
+Text Label 8925 6075 0    60   ~ 0
+D+
+Text Label 8025 6075 2    60   ~ 0
+D-
+Wire Wire Line
+	8025 6075 8175 6075
+Wire Wire Line
+	8925 6075 8775 6075
 $EndSCHEMATC
