@@ -321,7 +321,8 @@ P 2400 6825
 F 0 "U?" H 2400 6325 40  0000 C CNN
 F 1 "LM3914" H 2400 7325 40  0000 C CNN
 F 2 "" V 2800 7175 60  0000 C CNN
-F 3 "" V 2800 7175 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3914.pdf" V 2800 7175 60  0001 C CNN
+F 4 "LM3914N-1/NOPB-ND" H 2400 6825 60  0001 C CNN "Digikey Product Number"
 	1    2400 6825
 	1    0    0    -1  
 $EndComp
@@ -601,7 +602,8 @@ P 5275 1975
 F 0 "U?" H 5275 1675 60  0000 C CNN
 F 1 "MCP73833" H 5275 2275 60  0000 C CNN
 F 2 "~" H 5275 1825 60  0000 C CNN
-F 3 "~" H 5275 1825 60  0000 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en027983" H 5275 1825 60  0001 C CNN
+F 4 "MCP73833-AMI/UN-ND" H 5275 1975 60  0001 C CNN "Digikey Product Number"
 	1    5275 1975
 	1    0    0    -1  
 $EndComp
