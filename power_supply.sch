@@ -27,7 +27,8 @@ P 1275 1825
 F 0 "U?" H 1275 1525 60  0000 C CNN
 F 1 "USB-MICRO" H 1275 2125 60  0000 C CNN
 F 2 "" H 1275 1825 60  0000 C CNN
-F 3 "" H 1275 1825 60  0000 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2040002&DocType=Customer+Drawing&DocLang=English" H 1275 1825 60  0001 C CNN
+F 4 "A108263CT-ND" H 1275 1825 60  0001 C CNN "Digikey Product Number"
 	1    1275 1825
 	1    0    0    -1  
 $EndComp
@@ -38,7 +39,8 @@ P 3700 3675
 F 0 "U?" H 3700 3225 60  0000 C CNN
 F 1 "MIC2185" H 3700 4125 60  0000 C CNN
 F 2 "" H 3750 3675 60  0000 C CNN
-F 3 "" H 3750 3675 60  0000 C CNN
+F 3 "http://www.micrel.com/_PDF/mic2185.pdf" H 3750 3675 60  0001 C CNN
+F 4 "576-1714-5-ND" H 3700 3675 60  0001 C CNN "Digikey Product Number"
 	1    3700 3675
 	1    0    0    -1  
 $EndComp
@@ -328,9 +330,10 @@ L MAX9938 U?
 U 1 1 539FF79F
 P 9075 4125
 F 0 "U?" H 9175 4125 40  0000 C CNN
-F 1 "MAX9938" H 9075 4325 40  0000 C CNN
+F 1 "MAX9938T" H 9075 4325 40  0000 C CNN
 F 2 "" H 9025 4125 60  0000 C CNN
-F 3 "" H 9025 4125 60  0000 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX9938.pdf" H 9025 4125 60  0001 C CNN
+F 4 "MAX9938TEUK+TCT-ND" H 9075 4125 60  0001 C CNN "Digikey Product Number"
 	1    9075 4125
 	1    0    0    -1  
 $EndComp
@@ -338,19 +341,7 @@ Text Label 8600 4075 2    60   ~ 0
 VSS
 Text Label 8600 4225 2    60   ~ 0
 I_SENSE
-$Comp
-L R R?
-U 1 1 539FFEA8
-P 9550 4125
-F 0 "R?" V 9630 4125 40  0000 C CNN
-F 1 ".025" V 9500 4125 40  0000 C CNN
-F 2 "~" V 9480 4125 30  0000 C CNN
-F 3 "~" H 9550 4125 30  0000 C CNN
-F 4 "12FR025E-ND" V 9550 4125 60  0001 C CNN "Digikey Product Number"
-	1    9550 4125
-	1    0    0    -1  
-$EndComp
-Text Label 9550 3850 1    60   ~ 0
+Text Label 9800 3500 1    60   ~ 0
 VREG
 Text Label 1900 6825 2    60   ~ 0
 I_SENSE
@@ -472,7 +463,7 @@ Text Label 1900 6525 2    60   ~ 0
 VSS
 Text Label 1900 6625 2    60   ~ 0
 VREG
-Text Notes 9700 4125 0    60   ~ 0
+Text Notes 10050 4050 0    60   ~ 0
 Non Inductive Resistor
 Text Notes 7550 4375 0    60   ~ 0
 Full Scale Voltage: 1.875V
@@ -1022,20 +1013,13 @@ Connection ~ 8775 4075
 Wire Wire Line
 	8775 4225 8600 4225
 Wire Wire Line
-	9550 3850 9550 3975
-Wire Wire Line
-	9550 3900 9400 3900
-Wire Wire Line
-	9400 3900 9400 4025
+	9400 3850 9400 4025
 Wire Wire Line
 	9400 4025 9375 4025
 Wire Wire Line
 	9375 4225 9400 4225
 Wire Wire Line
 	9400 4225 9400 4350
-Wire Wire Line
-	9400 4350 9750 4350
-Connection ~ 9550 3900
 Wire Wire Line
 	2050 6825 1900 6825
 Wire Wire Line
@@ -1264,31 +1248,14 @@ Wire Wire Line
 Wire Wire Line
 	5975 2175 5875 2175
 $Comp
-L PTC F?
-U 1 1 53A0B4AA
-P 9900 4350
-F 0 "F?" H 9950 4300 40  0000 C CNN
-F 1 "PTC" H 9800 4375 40  0000 C CNN
-F 2 "" H 9900 4350 60  0000 C CNN
-F 3 "" H 9900 4350 60  0000 C CNN
-	1    9900 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 4275 9550 4350
-Connection ~ 9550 4350
-Wire Wire Line
-	10050 4350 10175 4350
-Text Label 10175 4350 0    60   ~ 0
-VOUT
-$Comp
 L TPD2E001DRL U?
 U 1 1 539F96A5
 P 2650 1825
 F 0 "U?" H 2750 1825 40  0000 C CNN
 F 1 "TPD2E001DRL" H 2650 2025 40  0000 C CNN
 F 2 "" H 2650 1825 60  0000 C CNN
-F 3 "" H 2650 1825 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 2650 1825 60  0001 C CNN
+F 4 "296-21883-1-ND" H 2650 1825 60  0001 C CNN "Digikey Product Number"
 	1    2650 1825
 	0    1    1    0   
 $EndComp
@@ -1299,7 +1266,8 @@ P 8475 5975
 F 0 "U?" H 8575 5975 40  0000 C CNN
 F 1 "TPD2E001DRL" H 8475 6175 40  0000 C CNN
 F 2 "" H 8475 5975 60  0000 C CNN
-F 3 "" H 8475 5975 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 8475 5975 60  0001 C CNN
+F 4 "296-21883-1-ND" H 8475 5975 60  0001 C CNN "Digikey Product Number"
 	1    8475 5975
 	1    0    0    -1  
 $EndComp
@@ -1343,4 +1311,63 @@ Wire Wire Line
 	8025 6075 8175 6075
 Wire Wire Line
 	8925 6075 8775 6075
+$Comp
+L R-4TERM R?
+U 1 1 53A07AFC
+P 9750 4100
+F 0 "R?" V 9830 4100 40  0000 C CNN
+F 1 ".05" V 9675 4100 40  0000 C CNN
+F 2 "~" V 9680 4100 30  0000 C CNN
+F 3 "http://www.ohmite.com/cat/res_lvk.pdf" H 9750 4100 30  0001 C CNN
+F 4 "LVK12R050DERCT-ND" V 9750 4100 60  0001 C CNN "Digikey Product Number"
+	1    9750 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 3500 9800 3900
+Text Label 10425 4350 0    60   ~ 0
+VOUT
+Wire Wire Line
+	10300 4350 10425 4350
+$Comp
+L PTC F?
+U 1 1 53A0B4AA
+P 10150 4350
+F 0 "F?" H 10200 4300 40  0000 C CNN
+F 1 "PTC" H 10050 4375 40  0000 C CNN
+F 2 "" H 10150 4350 60  0000 C CNN
+F 3 "" H 10150 4350 60  0000 C CNN
+	1    10150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4350 9800 4350
+Wire Wire Line
+	9400 4350 9700 4350
+Wire Wire Line
+	9700 3900 9700 3850
+Wire Wire Line
+	9700 3850 9400 3850
+Wire Wire Line
+	9700 4350 9700 4300
+Wire Wire Line
+	9800 4350 9800 4300
+$Comp
+L C C?
+U 1 1 53A08268
+P 9600 3650
+F 0 "C?" H 9600 3750 40  0000 L CNN
+F 1 "C" H 9606 3565 40  0000 L CNN
+F 2 "~" H 9638 3500 30  0000 C CNN
+F 3 "~" H 9600 3650 60  0000 C CNN
+	1    9600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 3650 9700 3650
+Connection ~ 9800 3650
+Wire Wire Line
+	9500 3650 9400 3650
+Text Label 9400 3650 2    60   ~ 0
+VSS
 $EndSCHEMATC
