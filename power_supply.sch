@@ -12,7 +12,7 @@ Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
 Comment2 "5V walwart or USB input"
-Comment3 "5V, 1A output"
+Comment3 "5V, 1.5A output"
 Comment4 ""
 $EndDescr
 Text Label 1775 2025 0    60   ~ 0
