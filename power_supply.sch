@@ -758,8 +758,6 @@ F 3 "" H 1450 3500 60  0000 C CNN
 	1    1450 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 4275 700  0    60   ~ 0
-LED current set to .5mA - this is bright \nenough for indication purposes.
 Text Notes 6575 5150 0    60   ~ 0
 All three 120uF caps \nare tantalum.
 Text Notes 1050 4450 0    60   ~ 0
@@ -791,8 +789,6 @@ Wire Wire Line
 	3900 825  5925 825 
 Wire Wire Line
 	6575 2625 6575 2400
-Wire Wire Line
-	7375 2625 7375 2400
 Connection ~ 6575 2625
 Wire Wire Line
 	1675 2025 1775 2025
@@ -1090,8 +1086,6 @@ Wire Wire Line
 Wire Wire Line
 	5875 1825 7425 1825
 Connection ~ 5875 1825
-Wire Wire Line
-	7375 1825 7375 2150
 Connection ~ 7375 1825
 Wire Wire Line
 	9175 1775 9275 1775
@@ -1197,8 +1191,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 1475 2750 1475
 Connection ~ 2750 1475
-Wire Wire Line
-	3000 1900 3000 2175
 Wire Wire Line
 	3000 2175 2750 2175
 Connection ~ 2750 2175
@@ -1372,8 +1364,6 @@ Wire Wire Line
 	10375 4400 10525 4400
 Text Label 10525 4400 0    60   ~ 0
 VDISP
-Text Notes 8650 5525 0    60   ~ 0
-Would this work to turn the display \noff when no current is being drawn?\n This device has a quiescent current \nof 1.5uA max.
 Text Label 1750 6225 2    60   ~ 0
 VDISP
 Wire Wire Line
@@ -1395,4 +1385,13 @@ Wire Wire Line
 	9325 4925 8875 4925
 Wire Wire Line
 	9675 4400 9675 4750
+Wire Wire Line
+	9075 2625 9075 2525
+Wire Wire Line
+	3000 1925 3000 2175
+Wire Wire Line
+	7375 2625 7375 2450
+Wire Wire Line
+	7375 2100 7375 1825
+NoConn ~ 4975 6200
 $EndSCHEMATC
