@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "17 jun 2014"
+Date "18 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -27,289 +27,272 @@ P 1275 1825
 F 0 "J1" V 1150 1825 40  0000 C CNN
 F 1 "USB-MICRO" H 1275 2125 40  0000 C CNN
 F 2 "" H 1275 1825 60  0000 C CNN
-F 3 "" H 1275 1825 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/2040002-1/A108263CT-ND/4021990" H 1275 1825 60  0001 C CNN
+F 4 "A108263CT-ND" V 1275 1825 60  0001 C CNN "Digikey Product Number"
 	1    1275 1825
 	1    0    0    -1  
 $EndComp
 $Comp
 L MIC2185 U3
 U 1 1 539F4C11
-P 3700 3675
-F 0 "U3" H 3700 3225 60  0000 C CNN
-F 1 "MIC2185" H 3700 4125 60  0000 C CNN
-F 2 "" H 3750 3675 60  0000 C CNN
-F 3 "" H 3750 3675 60  0000 C CNN
-	1    3700 3675
+P 4000 3850
+F 0 "U3" H 4000 3400 60  0000 C CNN
+F 1 "MIC2185" H 4000 4300 60  0000 C CNN
+F 2 "" H 4050 3850 60  0000 C CNN
+F 3 "" H 4050 3850 60  0000 C CNN
+	1    4000 3850
 	1    0    0    -1  
 $EndComp
-Text Label 1350 3325 2    60   ~ 0
+Text Label 1225 3500 2    60   ~ 0
 VSYS
 $Comp
 L R R3
 U 1 1 539F5127
-P 1800 3550
-F 0 "R3" V 1880 3550 40  0000 C CNN
-F 1 "100k" V 1750 3550 40  0000 C CNN
-F 2 "~" V 1730 3550 30  0000 C CNN
-F 3 "~" H 1800 3550 30  0000 C CNN
-	1    1800 3550
+P 2100 3725
+F 0 "R3" V 2180 3725 40  0000 C CNN
+F 1 "100k" V 2050 3725 40  0000 C CNN
+F 2 "~" V 2030 3725 30  0000 C CNN
+F 3 "~" H 2100 3725 30  0000 C CNN
+	1    2100 3725
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R4
 U 1 1 539F5295
-P 1800 4250
-F 0 "R4" V 1880 4250 40  0000 C CNN
-F 1 "100k" V 1750 4250 40  0000 C CNN
-F 2 "~" V 1730 4250 30  0000 C CNN
-F 3 "~" H 1800 4250 30  0000 C CNN
-	1    1800 4250
+P 2100 4425
+F 0 "R4" V 2180 4425 40  0000 C CNN
+F 1 "100k" V 2050 4425 40  0000 C CNN
+F 2 "~" V 2030 4425 30  0000 C CNN
+F 3 "~" H 2100 4425 30  0000 C CNN
+	1    2100 4425
 	1    0    0    -1  
 $EndComp
-Text Label 1350 4850 2    60   ~ 0
+Text Label 1225 5025 2    60   ~ 0
 VSS
 $Comp
 L C C5
 U 1 1 539F60C4
-P 2675 4475
-F 0 "C5" V 2625 4550 50  0000 L CNN
-F 1 ".1uF" V 2625 4300 50  0000 L CNN
-F 2 "" H 2675 4475 60  0000 C CNN
-F 3 "" H 2675 4475 60  0000 C CNN
-	1    2675 4475
+P 2975 4650
+F 0 "C5" V 2925 4725 50  0000 L CNN
+F 1 ".1uF" V 2925 4475 50  0000 L CNN
+F 2 "" H 2975 4650 60  0000 C CNN
+F 3 "" H 2975 4650 60  0000 C CNN
+	1    2975 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
 U 1 1 539F694A
-P 2150 4475
-F 0 "C3" V 2100 4550 50  0000 L CNN
-F 1 ".1uF" V 2100 4275 50  0000 L CNN
-F 2 "" H 2150 4475 60  0000 C CNN
-F 3 "" H 2150 4475 60  0000 C CNN
-	1    2150 4475
+P 2450 4650
+F 0 "C3" V 2400 4725 50  0000 L CNN
+F 1 ".1uF" V 2400 4450 50  0000 L CNN
+F 2 "" H 2450 4650 60  0000 C CNN
+F 3 "" H 2450 4650 60  0000 C CNN
+	1    2450 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R5
 U 1 1 539F6BF7
-P 2350 4300
-F 0 "R5" V 2430 4300 40  0000 C CNN
-F 1 "10k" V 2300 4300 40  0000 C CNN
-F 2 "~" V 2280 4300 30  0000 C CNN
-F 3 "~" H 2350 4300 30  0000 C CNN
-	1    2350 4300
+P 2650 4475
+F 0 "R5" V 2730 4475 40  0000 C CNN
+F 1 "10k" V 2600 4475 40  0000 C CNN
+F 2 "~" V 2580 4475 30  0000 C CNN
+F 3 "~" H 2650 4475 30  0000 C CNN
+	1    2650 4475
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C4
 U 1 1 539F6BFD
-P 2350 4625
-F 0 "C4" V 2300 4700 50  0000 L CNN
-F 1 ".01uF" V 2300 4425 50  0000 L CNN
-F 2 "" H 2350 4625 60  0000 C CNN
-F 3 "" H 2350 4625 60  0000 C CNN
-	1    2350 4625
+P 2650 4800
+F 0 "C4" V 2600 4875 50  0000 L CNN
+F 1 ".01uF" V 2600 4600 50  0000 L CNN
+F 2 "" H 2650 4800 60  0000 C CNN
+F 3 "" H 2650 4800 60  0000 C CNN
+	1    2650 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C8
 U 1 1 539F82E5
-P 4425 4475
-F 0 "C8" V 4375 4550 50  0000 L CNN
-F 1 "1nF" V 4375 4300 50  0000 L CNN
-F 2 "" H 4425 4475 60  0000 C CNN
-F 3 "" H 4425 4475 60  0000 C CNN
-	1    4425 4475
+P 4725 4650
+F 0 "C8" V 4675 4725 50  0000 L CNN
+F 1 "1nF" V 4675 4475 50  0000 L CNN
+F 2 "" H 4725 4650 60  0000 C CNN
+F 3 "" H 4725 4650 60  0000 C CNN
+	1    4725 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C9
 U 1 1 539F8A85
-P 4575 4475
-F 0 "C9" V 4525 4550 50  0000 L CNN
-F 1 "1uF" V 4525 4300 50  0000 L CNN
-F 2 "" H 4575 4475 60  0000 C CNN
-F 3 "" H 4575 4475 60  0000 C CNN
-	1    4575 4475
+P 4875 4650
+F 0 "C9" V 4825 4725 50  0000 L CNN
+F 1 "1uF" V 4825 4475 50  0000 L CNN
+F 2 "" H 4875 4650 60  0000 C CNN
+F 3 "" H 4875 4650 60  0000 C CNN
+	1    4875 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L SI4174DY Q1
 U 1 1 539F91DD
-P 5375 3875
-F 0 "Q1" H 5475 3925 40  0000 C CNN
-F 1 "SI4174DY" H 5475 4000 40  0000 C CNN
-F 2 "~" H 5775 4025 60  0000 C CNN
-F 3 "~" H 5775 4025 60  0000 C CNN
-	1    5375 3875
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SI4174DY Q2
-U 1 1 539F9256
-P 5375 4175
-F 0 "Q2" H 5475 4225 40  0000 C CNN
-F 1 "SI4174DY" H 5475 4300 40  0000 C CNN
-F 2 "~" H 5775 4325 60  0000 C CNN
-F 3 "~" H 5775 4325 60  0000 C CNN
-	1    5375 4175
+P 5675 4150
+F 0 "Q1" H 5775 4200 40  0000 C CNN
+F 1 "SI4174DY" H 5675 4100 40  0000 C CNN
+F 2 "~" H 6075 4300 60  0000 C CNN
+F 3 "http://www.vishay.com/docs/68998/si4174dy.pdf" H 6075 4300 60  0001 C CNN
+F 4 "SI4174DY-T1-GE3CT-ND" H 5675 4150 60  0001 C CNN "Digikey Product Number"
+	1    5675 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R9
 U 1 1 539F9501
-P 5375 4600
-F 0 "R9" V 5455 4600 40  0000 C CNN
-F 1 ".010" V 5325 4600 40  0000 C CNN
-F 2 "~" V 5305 4600 30  0000 C CNN
-F 3 "~" H 5375 4600 30  0000 C CNN
-	1    5375 4600
+P 5675 4775
+F 0 "R9" V 5755 4775 40  0000 C CNN
+F 1 ".010" V 5625 4775 40  0000 C CNN
+F 2 "~" V 5605 4775 30  0000 C CNN
+F 3 "~" H 5675 4775 30  0000 C CNN
+	1    5675 4775
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R8
 U 1 1 539F9535
-P 5175 4400
-F 0 "R8" V 5255 4400 40  0000 C CNN
-F 1 "100k" V 5125 4400 40  0000 C CNN
-F 2 "~" V 5105 4400 30  0000 C CNN
-F 3 "~" H 5175 4400 30  0000 C CNN
-	1    5175 4400
+P 5475 4575
+F 0 "R8" V 5555 4575 40  0000 C CNN
+F 1 "100k" V 5425 4575 40  0000 C CNN
+F 2 "~" V 5405 4575 30  0000 C CNN
+F 3 "~" H 5475 4575 30  0000 C CNN
+	1    5475 4575
 	0    -1   -1   0   
 $EndComp
 $Comp
 L SI4463CDY Q4
 U 1 1 539FABA4
-P 5900 3625
-F 0 "Q4" H 5880 3715 40  0000 C CNN
-F 1 "SI4463CDY" H 5875 3575 40  0000 C CNN
-F 2 "~" H 5900 3575 60  0000 C CNN
-F 3 "~" H 5900 3575 60  0000 C CNN
-	1    5900 3625
-	0    -1   1    0   
-$EndComp
-$Comp
-L SI4463CDY Q3
-U 1 1 539FABB1
-P 5900 3250
-F 0 "Q3" H 5880 3340 40  0000 C CNN
-F 1 "SI4463CDY" H 5900 3450 40  0000 C CNN
-F 2 "~" H 5900 3200 60  0000 C CNN
-F 3 "~" H 5900 3200 60  0000 C CNN
-	1    5900 3250
+P 6200 3650
+F 0 "Q4" H 6180 3740 40  0000 C CNN
+F 1 "SI4463CDY" H 6175 3600 40  0000 C CNN
+F 2 "~" H 6200 3600 60  0000 C CNN
+F 3 "http://www.vishay.com/docs/67335/si4463cd.pdf" H 6200 3600 60  0001 C CNN
+F 4 "78-SI4463CDY-T1-GE3" H 6200 3650 60  0001 C CNN "Mouser Product Number"
+	1    6200 3650
 	0    -1   1    0   
 $EndComp
 $Comp
 L SCHOTTKY D13
 U 1 1 539FB40C
-P 5825 3875
-F 0 "D13" H 5925 3825 40  0000 C CNN
-F 1 "B130" H 5725 3825 40  0000 C CNN
-F 2 "" H 5825 3875 60  0000 C CNN
-F 3 "" H 5825 3875 60  0000 C CNN
-	1    5825 3875
+P 6125 4050
+F 0 "D13" H 6225 4000 40  0000 C CNN
+F 1 "B130" H 6025 4000 40  0000 C CNN
+F 2 "" H 6125 4050 60  0000 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 6125 4050 60  0001 C CNN
+F 4 "B130-E3/5ATGICT-ND" H 6125 4050 60  0001 C CNN "Digikey Product Number"
+	1    6125 4050
 	1    0    0    -1  
 $EndComp
-Text Label 7000 3775 0    60   ~ 0
+Text Label 7300 3950 0    60   ~ 0
 VREG
 $Comp
 L C C1
 U 1 1 539FBBDB
-P 1400 4250
-F 0 "C1" V 1350 4325 50  0000 L CNN
-F 1 "47uF" V 1350 4050 50  0000 L CNN
-F 2 "" H 1400 4250 60  0000 C CNN
-F 3 "" H 1400 4250 60  0000 C CNN
-	1    1400 4250
+P 1700 4425
+F 0 "C1" V 1650 4500 50  0000 L CNN
+F 1 "47uF" V 1650 4225 50  0000 L CNN
+F 2 "" H 1700 4425 60  0000 C CNN
+F 3 "" H 1700 4425 60  0000 C CNN
+	1    1700 4425
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 539FBBE1
-P 1575 4250
-F 0 "C2" V 1525 4325 50  0000 L CNN
-F 1 ".1uF" V 1525 4050 50  0000 L CNN
-F 2 "" H 1575 4250 60  0000 C CNN
-F 3 "" H 1575 4250 60  0000 C CNN
-	1    1575 4250
+P 1875 4425
+F 0 "C2" V 1825 4500 50  0000 L CNN
+F 1 ".1uF" V 1825 4225 50  0000 L CNN
+F 2 "" H 1875 4425 60  0000 C CNN
+F 3 "" H 1875 4425 60  0000 C CNN
+	1    1875 4425
 	1    0    0    -1  
 $EndComp
 $Comp
 L INDUCTOR L1
 U 1 1 539FBFC4
-P 3675 3075
-F 0 "L1" V 3775 2825 40  0000 C CNN
-F 1 "4.7uH" V 3775 3075 40  0000 C CNN
-F 2 "~" H 3675 3075 60  0000 C CNN
-F 3 "~" H 3675 3075 60  0000 C CNN
-	1    3675 3075
+P 3975 3250
+F 0 "L1" V 4075 3000 40  0000 C CNN
+F 1 "4.7uH" V 4075 3250 40  0000 C CNN
+F 2 "~" H 3975 3250 60  0000 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/SRR1240.pdf" H 3975 3250 60  0001 C CNN
+F 4 "SRR1240-4R7MCT-ND" V 3975 3250 60  0001 C CNN "Digikey Product Number"
+	1    3975 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R15
 U 1 1 539FC6ED
-P 6125 4225
-F 0 "R15" V 6205 4225 40  0000 C CNN
-F 1 "100k" V 6075 4225 40  0000 C CNN
-F 2 "~" V 6055 4225 30  0000 C CNN
-F 3 "~" H 6125 4225 30  0000 C CNN
-	1    6125 4225
+P 6425 4400
+F 0 "R15" V 6505 4400 40  0000 C CNN
+F 1 "100k" V 6375 4400 40  0000 C CNN
+F 2 "~" V 6355 4400 30  0000 C CNN
+F 3 "~" H 6425 4400 30  0000 C CNN
+	1    6425 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R16
 U 1 1 539FC6F3
-P 6125 4650
-F 0 "R16" V 6205 4650 40  0000 C CNN
-F 1 "3.32k" V 6075 4650 40  0000 C CNN
-F 2 "~" V 6055 4650 30  0000 C CNN
-F 3 "~" H 6125 4650 30  0000 C CNN
-	1    6125 4650
+P 6425 4825
+F 0 "R16" V 6505 4825 40  0000 C CNN
+F 1 "31.6k" V 6375 4825 40  0000 C CNN
+F 2 "~" V 6355 4825 30  0000 C CNN
+F 3 "~" H 6425 4825 30  0000 C CNN
+	1    6425 4825
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C10
 U 1 1 539FCAEE
-P 6425 4425
-F 0 "C10" V 6375 4500 50  0000 L CNN
-F 1 "120uF" V 6375 4175 50  0000 L CNN
-F 2 "" H 6425 4425 60  0000 C CNN
-F 3 "" H 6425 4425 60  0000 C CNN
-	1    6425 4425
+P 6725 4600
+F 0 "C10" V 6675 4675 50  0000 L CNN
+F 1 "120uF" V 6675 4350 50  0000 L CNN
+F 2 "" H 6725 4600 60  0000 C CNN
+F 3 "" H 6725 4600 60  0000 C CNN
+	1    6725 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C12
 U 1 1 539FCC61
-P 6600 4425
-F 0 "C12" V 6550 4500 50  0000 L CNN
-F 1 "120uF" V 6550 4175 50  0000 L CNN
-F 2 "" H 6600 4425 60  0000 C CNN
-F 3 "" H 6600 4425 60  0000 C CNN
-	1    6600 4425
+P 6900 4600
+F 0 "C12" V 6850 4675 50  0000 L CNN
+F 1 "120uF" V 6850 4350 50  0000 L CNN
+F 2 "" H 6900 4600 60  0000 C CNN
+F 3 "" H 6900 4600 60  0000 C CNN
+	1    6900 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C13
 U 1 1 539FCC67
-P 6775 4425
-F 0 "C13" V 6725 4500 50  0000 L CNN
-F 1 "120uF" V 6725 4175 50  0000 L CNN
-F 2 "" H 6775 4425 60  0000 C CNN
-F 3 "" H 6775 4425 60  0000 C CNN
-	1    6775 4425
+P 7075 4600
+F 0 "C13" V 7025 4675 50  0000 L CNN
+F 1 "120uF" V 7025 4350 50  0000 L CNN
+F 2 "" H 7075 4600 60  0000 C CNN
+F 3 "" H 7075 4600 60  0000 C CNN
+	1    7075 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C14
 U 1 1 539FCC6D
-P 6950 4425
-F 0 "C14" V 6900 4500 50  0000 L CNN
-F 1 ".1uF" V 6900 4250 50  0000 L CNN
-F 2 "" H 6950 4425 60  0000 C CNN
-F 3 "" H 6950 4425 60  0000 C CNN
-	1    6950 4425
+P 7250 4600
+F 0 "C14" V 7200 4675 50  0000 L CNN
+F 1 ".1uF" V 7200 4425 50  0000 L CNN
+F 2 "" H 7250 4600 60  0000 C CNN
+F 3 "" H 7250 4600 60  0000 C CNN
+	1    7250 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -319,7 +302,8 @@ P 2400 6825
 F 0 "U1" H 2400 6325 40  0000 C CNN
 F 1 "LM3914" H 2400 7325 40  0000 C CNN
 F 2 "" V 2800 7175 60  0000 C CNN
-F 3 "" V 2800 7175 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3914.pdf" V 2800 7175 60  0001 C CNN
+F 4 "LM3914N-1/NOPB-ND" H 2400 6825 60  0001 C CNN "Digikey Product Number"
 	1    2400 6825
 	1    0    0    -1  
 $EndComp
@@ -328,9 +312,10 @@ L MAX9938 U7
 U 1 1 539FF79F
 P 9150 4775
 F 0 "U7" H 9250 4775 40  0000 C CNN
-F 1 "MAX9938" H 9150 4975 40  0000 C CNN
+F 1 "MAX9938T" H 9150 4975 40  0000 C CNN
 F 2 "" H 9100 4775 60  0000 C CNN
-F 3 "" H 9100 4775 60  0000 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX9938.pdf" H 9100 4775 60  0001 C CNN
+F 4 "MAX9938TEUK+TCT-ND" H 9150 4775 60  0001 C CNN "Digikey Product Number"
 	1    9150 4775
 	1    0    0    -1  
 $EndComp
@@ -338,20 +323,6 @@ Text Label 8675 4725 2    60   ~ 0
 VSS
 Text Label 8675 4875 2    60   ~ 0
 I_SENSE
-$Comp
-L R R22
-U 1 1 539FFEA8
-P 9625 4775
-F 0 "R22" V 9705 4775 40  0000 C CNN
-F 1 ".025" V 9575 4775 40  0000 C CNN
-F 2 "~" V 9555 4775 30  0000 C CNN
-F 3 "~" H 9625 4775 30  0000 C CNN
-F 4 "12FR025E-ND" V 9625 4775 60  0001 C CNN "Digikey Product Number"
-	1    9625 4775
-	1    0    0    -1  
-$EndComp
-Text Label 9625 4500 1    60   ~ 0
-VREG
 Text Label 1900 6825 2    60   ~ 0
 I_SENSE
 $Comp
@@ -472,10 +443,6 @@ Text Label 1900 6525 2    60   ~ 0
 VSS
 Text Label 1900 6625 2    60   ~ 0
 VREG
-Text Notes 9775 4775 0    60   ~ 0
-Non Inductive Resistor
-Text Notes 8125 5050 0    60   ~ 0
-Gain of 50 and full scale\nvoltage of 1.875. This means\nfull scale voltage drop across\nshunt resistor is 37.5mV.
 Text Label 1900 7225 2    60   ~ 0
 VSS
 Text Notes 1725 7425 0    60   ~ 0
@@ -492,43 +459,13 @@ F 3 "~" H 9875 5825 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10275 5825 0    60   ~ 0
-VOUT
+VUSB
 Text Label 10275 6125 0    60   ~ 0
 VSS
 Text Label 10275 5925 0    60   ~ 0
 D-
 Text Label 10275 6025 0    60   ~ 0
 D+
-$Comp
-L R R13
-U 1 1 53A031F0
-P 6050 6375
-F 0 "R13" V 6130 6375 40  0000 C CNN
-F 1 "26.1" V 6000 6375 40  0000 C CNN
-F 2 "~" V 5980 6375 30  0000 C CNN
-F 3 "~" H 6050 6375 30  0000 C CNN
-F 4 "CMF26.1KHFCT-ND" V 6050 6375 60  0001 C CNN "Digikey Product Number"
-	1    6050 6375
-	1    0    0    -1  
-$EndComp
-Text Label 5975 6600 2    60   ~ 0
-D-
-Text Label 6350 6600 2    60   ~ 0
-D+
-$Comp
-L POT R10
-U 1 1 53A03D40
-P 5900 6800
-F 0 "R10" H 5975 6850 40  0000 C CNN
-F 1 "100k" H 5825 6850 40  0000 C CNN
-F 2 "" H 5900 6800 60  0000 C CNN
-F 3 "" H 5900 6800 60  0000 C CNN
-F 4 "TS53YJ-100KCT-ND" H 5900 6800 60  0001 C CNN "Digikey Product Number"
-	1    5900 6800
-	0    -1   -1   0   
-$EndComp
-Text Label 6250 6000 1    60   ~ 0
-VOUT
 $Comp
 L R R2
 U 1 1 53A04B7A
@@ -553,56 +490,6 @@ F 3 "~" H 1350 6975 30  0000 C CNN
 $EndComp
 Text Label 1125 6975 2    60   ~ 0
 VSS
-$Comp
-L R R14
-U 1 1 53A05C7C
-P 6050 6850
-F 0 "R14" V 6130 6850 40  0000 C CNN
-F 1 "100k" V 6000 6850 40  0000 C CNN
-F 2 "~" V 5980 6850 30  0000 C CNN
-F 3 "~" H 6050 6850 30  0000 C CNN
-F 4 "CMF100KHFCT-ND" V 6050 6850 60  0001 C CNN "Digikey Product Number"
-	1    6050 6850
-	1    0    0    -1  
-$EndComp
-Text Label 6225 7150 3    60   ~ 0
-VSS
-$Comp
-L R R18
-U 1 1 53A0706D
-P 6425 6850
-F 0 "R18" V 6505 6850 40  0000 C CNN
-F 1 "100k" V 6375 6850 40  0000 C CNN
-F 2 "~" V 6355 6850 30  0000 C CNN
-F 3 "~" H 6425 6850 30  0000 C CNN
-F 4 "CMF100KHFCT-ND" V 6425 6850 60  0001 C CNN "Digikey Product Number"
-	1    6425 6850
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R17
-U 1 1 53A07092
-P 6425 6375
-F 0 "R17" V 6505 6375 40  0000 C CNN
-F 1 "26.1" V 6375 6375 40  0000 C CNN
-F 2 "~" V 6355 6375 30  0000 C CNN
-F 3 "~" H 6425 6375 30  0000 C CNN
-F 4 "CMF26.1KHFCT-ND" V 6425 6375 60  0001 C CNN "Digikey Product Number"
-	1    6425 6375
-	-1   0    0    1   
-$EndComp
-$Comp
-L POT R19
-U 1 1 53A070CB
-P 6575 6800
-F 0 "R19" H 6650 6850 40  0000 C CNN
-F 1 "100k" H 6500 6850 40  0000 C CNN
-F 2 "" H 6575 6800 60  0000 C CNN
-F 3 "" H 6575 6800 60  0000 C CNN
-F 4 "TS53YJ-100KCT-ND" H 6575 6800 60  0001 C CNN "Digikey Product Number"
-	1    6575 6800
-	0    1    1    0   
-$EndComp
 $Comp
 L MCP73833 U4
 U 1 1 53A080EC
@@ -739,7 +626,7 @@ L R R7
 U 1 1 53A0813D
 P 4500 1475
 F 0 "R7" V 4450 1600 40  0000 C CNN
-F 1 "1.5k" V 4450 1475 40  0000 C CNN
+F 1 "6k" V 4450 1475 40  0000 C CNN
 F 2 "~" V 4430 1475 30  0000 C CNN
 F 3 "~" H 4500 1475 30  0000 C CNN
 	1    4500 1475
@@ -750,7 +637,7 @@ L R R6
 U 1 1 53A08143
 P 4375 1475
 F 0 "R6" V 4425 1350 40  0000 C CNN
-F 1 "1.5k" V 4425 1475 40  0000 C CNN
+F 1 "6k" V 4425 1475 40  0000 C CNN
 F 2 "~" V 4305 1475 30  0000 C CNN
 F 3 "~" H 4375 1475 30  0000 C CNN
 	1    4375 1475
@@ -761,7 +648,7 @@ L R R11
 U 1 1 53A08149
 P 5925 1475
 F 0 "R11" V 6000 1425 40  0000 C CNN
-F 1 "1.5k" V 6000 1575 40  0000 C CNN
+F 1 "6k" V 6000 1575 40  0000 C CNN
 F 2 "~" V 5855 1475 30  0000 C CNN
 F 3 "~" H 5925 1475 30  0000 C CNN
 	1    5925 1475
@@ -771,6 +658,128 @@ Text Label 3900 825  2    60   ~ 0
 VDD
 Text Label 3925 2625 2    60   ~ 0
 VSS
+$Comp
+L PTC F1
+U 1 1 53A0B4AA
+P 9925 5000
+F 0 "F1" H 9975 4950 40  0000 C CNN
+F 1 "PTC" H 9825 5025 40  0000 C CNN
+F 2 "" H 9925 5000 60  0000 C CNN
+F 3 "" H 9925 5000 60  0000 C CNN
+	1    9925 5000
+	1    0    0    -1  
+$EndComp
+Text Label 10200 5000 0    60   ~ 0
+VOUT
+$Comp
+L TPD2E001DRL U2
+U 1 1 539F96A5
+P 2650 1825
+F 0 "U2" H 2750 1825 40  0000 C CNN
+F 1 "TPD2E001DRL" H 2650 2025 40  0000 C CNN
+F 2 "" H 2650 1825 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 2650 1825 60  0001 C CNN
+F 4 "296-21883-1-ND" H 2650 1825 60  0001 C CNN "Digikey Product Number"
+	1    2650 1825
+	0    1    1    0   
+$EndComp
+Text Label 2750 1425 1    60   ~ 0
+VDD
+Text Label 2750 2225 3    60   ~ 0
+VSS
+Text Label 8900 6150 0    60   ~ 0
+VSS
+Text Label 7550 6150 2    60   ~ 0
+VUSB
+Text Label 8900 6350 0    60   ~ 0
+D+
+Text Label 8000 6350 2    60   ~ 0
+D-
+$Comp
+L C C15
+U 1 1 539F9C99
+P 7700 6250
+F 0 "C15" V 7750 6075 50  0000 L CNN
+F 1 ".1uF" V 7650 6075 50  0000 L CNN
+F 2 "" H 7700 6250 60  0000 C CNN
+F 3 "" H 7700 6250 60  0000 C CNN
+	1    7700 6250
+	1    0    0    -1  
+$EndComp
+Text Label 7700 6450 3    60   ~ 0
+VSS
+$Comp
+L C C6
+U 1 1 539FA04F
+P 3000 1825
+F 0 "C6" V 3050 1700 50  0000 L CNN
+F 1 ".1uF" V 2950 1650 50  0000 L CNN
+F 2 "" H 3000 1825 60  0000 C CNN
+F 3 "" H 3000 1825 60  0000 C CNN
+	1    3000 1825
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 6325 0    60   ~ 0
+USB Type A female jack
+Text Notes 775  2250 0    60   ~ 0
+USB micro type B jack
+$Comp
+L R-4TERM R?
+U 1 1 53A0DF2D
+P 9650 4775
+F 0 "R?" V 9730 4775 40  0000 C CNN
+F 1 ".05" V 9575 4775 40  0000 C CNN
+F 2 "~" V 9580 4775 30  0000 C CNN
+F 3 "http://www.ohmite.com/cat/res_lvk.pdf" H 9650 4775 30  0001 C CNN
+F 4 "LVK12R050DERCT-ND" V 9650 4775 60  0001 C CNN "Digikey Product Number"
+	1    9650 4775
+	-1   0    0    1   
+$EndComp
+Text Label 9700 4500 1    60   ~ 0
+VREG
+$Comp
+L TPD2E001DRL U?
+U 1 1 53A0E543
+P 8450 6250
+F 0 "U?" H 8550 6250 40  0000 C CNN
+F 1 "TPD2E001DRL" H 8450 6450 40  0000 C CNN
+F 2 "" H 8450 6250 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 8450 6250 60  0001 C CNN
+F 4 "296-21883-1-ND" H 8450 6250 60  0001 C CNN "Digikey Product Number"
+	1    8450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PTC F?
+U 1 1 53A0E6A4
+P 1450 3500
+F 0 "F?" H 1500 3450 40  0000 C CNN
+F 1 "PTC" H 1350 3525 40  0000 C CNN
+F 2 "" H 1450 3500 60  0000 C CNN
+F 3 "" H 1450 3500 60  0000 C CNN
+	1    1450 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 4275 700  0    60   ~ 0
+LED current set to .5mA - this is bright \nenough for indication purposes.
+Text Notes 9800 4700 0    60   ~ 0
+Modified to use resistor \nsuggested in eval board.
+Text Notes 6575 5150 0    60   ~ 0
+All three 120uF caps \nare tantalum.
+Text Notes 1050 4450 0    60   ~ 0
+47uF cap is \ntantalum.
+$Comp
+L TPS2511 U?
+U 1 1 53A0F32C
+P 5825 6500
+F 0 "U?" H 5825 6450 40  0000 C CNN
+F 1 "TPS2511" H 5825 6400 40  0000 C CNN
+F 2 "" H 5925 6500 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2511.pdf" H 5925 6500 60  0001 C CNN
+F 4 "296-30552-1-ND" H 5825 6500 60  0001 C CNN "Digikey Product Number"
+	1    5825 6500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4500 1975 4500 1625
 Wire Wire Line
@@ -794,226 +803,180 @@ Wire Wire Line
 Wire Wire Line
 	1675 1625 1775 1625
 Wire Wire Line
-	1800 3400 1800 3325
-Connection ~ 1800 3325
+	2100 3575 2100 3500
+Connection ~ 2100 3500
 Wire Wire Line
-	1800 3700 1800 4100
-Connection ~ 1800 3925
+	2100 3875 2100 4275
+Connection ~ 2100 4100
 Wire Wire Line
-	1800 4400 1800 4850
+	2100 4575 2100 5025
 Wire Wire Line
-	2675 4025 3050 4025
-Connection ~ 1800 4850
+	2975 4200 3350 4200
+Connection ~ 2100 5025
 Wire Wire Line
-	1975 3425 1975 4850
-Connection ~ 1975 4850
+	2275 3600 2275 5025
+Connection ~ 2275 5025
 Wire Wire Line
-	2150 3525 2150 4375
+	2450 3700 2450 4550
 Wire Wire Line
-	2150 4575 2150 4850
-Connection ~ 2150 4850
+	2450 4750 2450 5025
+Connection ~ 2450 5025
 Wire Wire Line
-	2350 4725 2350 4850
-Connection ~ 2350 4850
+	2650 4900 2650 5025
+Connection ~ 2650 5025
 Wire Wire Line
-	2350 4525 2350 4450
+	2650 4700 2650 4625
 Wire Wire Line
-	2350 4150 2350 3625
+	2650 4325 2650 3800
 Wire Wire Line
-	2525 3725 2525 4850
-Connection ~ 2525 4850
+	2825 3900 2825 5025
+Connection ~ 2825 5025
 Wire Wire Line
-	1350 3325 3050 3325
+	1600 3500 3350 3500
 Wire Wire Line
-	1975 3425 3050 3425
+	2275 3600 3350 3600
 Wire Wire Line
-	3050 3525 2150 3525
+	3350 3700 2450 3700
 Wire Wire Line
-	2350 3625 3050 3625
+	2650 3800 3350 3800
 Wire Wire Line
-	3050 3725 2525 3725
+	3350 3900 2825 3900
 Wire Wire Line
-	3050 3925 1800 3925
+	3350 4100 2100 4100
 Wire Wire Line
-	2675 4025 2675 4375
+	2975 4200 2975 4550
 Wire Wire Line
-	2675 4575 2675 4850
+	2975 4750 2975 5025
 Wire Wire Line
-	1350 4850 6950 4850
-Connection ~ 2675 4850
+	1225 5025 7250 5025
+Connection ~ 2975 5025
 Wire Wire Line
-	4425 4375 4425 4025
+	4725 4550 4725 4200
 Wire Wire Line
-	4300 4025 4875 4025
+	4600 4200 5175 4200
 Wire Wire Line
-	4300 3925 4575 3925
+	4600 4100 4875 4100
 Wire Wire Line
-	4575 3425 4575 4375
+	4875 3600 4875 4550
 Wire Wire Line
-	4575 4575 4575 4850
-Connection ~ 4575 4850
+	4875 4750 4875 5025
+Connection ~ 4875 5025
 Wire Wire Line
-	4425 4575 4425 4850
-Connection ~ 4425 4850
+	4725 4750 4725 5025
+Connection ~ 4725 5025
 Wire Wire Line
-	4300 3825 4675 3825
+	4600 4000 4975 4000
 Wire Wire Line
-	4675 3825 4675 4850
+	4975 4000 4975 5025
 Wire Wire Line
-	4300 3725 4775 3725
+	4600 3900 5075 3900
 Wire Wire Line
-	4775 3725 4775 4850
-Connection ~ 4675 4850
+	5075 3900 5075 5025
+Connection ~ 4975 5025
 Wire Wire Line
-	5275 4225 5200 4225
+	4600 3800 5425 3800
 Wire Wire Line
-	5200 4225 5200 3925
+	5175 4200 5175 4575
+Connection ~ 4725 4200
+Connection ~ 5075 5025
 Wire Wire Line
-	5200 3925 5275 3925
+	5175 4575 5325 4575
 Wire Wire Line
-	5125 4075 5200 4075
+	5675 4250 5675 4625
+Connection ~ 5675 4575
 Wire Wire Line
-	4300 3625 5125 3625
-Connection ~ 5200 4075
+	5675 5025 5675 4925
 Wire Wire Line
-	4875 4025 4875 4400
-Connection ~ 4425 4025
-Connection ~ 4775 4850
+	5675 3900 5925 3900
 Wire Wire Line
-	4875 4400 5025 4400
+	5675 3900 5675 4050
 Wire Wire Line
-	5500 4400 5325 4400
+	4600 3700 6100 3700
 Wire Wire Line
-	5375 4275 5375 4450
-Connection ~ 5375 4400
+	6200 3250 6200 3550
 Wire Wire Line
-	5375 4850 5375 4750
+	4275 3250 6200 3250
 Wire Wire Line
-	5375 3975 5500 3975
+	6200 3950 7300 3950
 Wire Wire Line
-	5500 3975 5500 4400
+	6200 3750 6200 3950
 Wire Wire Line
-	5375 4075 5475 4075
+	6325 4050 6225 4050
+Connection ~ 6325 3950
+Connection ~ 5925 3900
 Wire Wire Line
-	5475 4075 5475 3725
+	4600 3500 5850 3500
 Wire Wire Line
-	5375 3725 5625 3725
+	5850 3500 5850 3200
 Wire Wire Line
-	5375 3725 5375 3775
+	5850 3200 6550 3200
 Wire Wire Line
-	5125 3625 5125 4075
+	6550 3200 6550 3950
+Connection ~ 6550 3950
 Wire Wire Line
-	4300 3525 5725 3525
-Connection ~ 5725 3525
+	4600 3600 4875 3600
 Wire Wire Line
-	5725 3675 5800 3675
+	1875 4325 1875 3500
+Connection ~ 1875 3500
 Wire Wire Line
-	5800 3300 5725 3300
+	1875 4525 1875 5025
+Connection ~ 1875 5025
 Wire Wire Line
-	5725 3300 5725 3675
+	1700 4525 1700 5025
+Connection ~ 1700 5025
 Wire Wire Line
-	5900 3525 5900 3425
+	1700 4325 1700 3500
+Connection ~ 1700 3500
+Connection ~ 4875 4100
+Connection ~ 5925 3250
 Wire Wire Line
-	5900 3425 6000 3425
+	3675 3250 2925 3250
 Wire Wire Line
-	6000 3425 6000 3125
+	2925 3250 2925 3500
+Connection ~ 2925 3500
+Connection ~ 5675 5025
 Wire Wire Line
-	6000 3125 5900 3125
+	6425 3950 6425 4250
+Connection ~ 6425 3950
 Wire Wire Line
-	5900 3075 5900 3150
+	6425 4550 6425 4675
 Wire Wire Line
-	3975 3075 5900 3075
-Connection ~ 5900 3125
-Connection ~ 5475 3725
+	6425 5025 6425 4975
 Wire Wire Line
-	5900 3350 6025 3350
+	6425 4625 6550 4625
 Wire Wire Line
-	6025 3350 6025 3875
+	6550 4625 6550 5150
 Wire Wire Line
-	5900 3775 7000 3775
+	6550 5150 3150 5150
 Wire Wire Line
-	5900 3775 5900 3725
+	3150 5150 3150 4000
 Wire Wire Line
-	6025 3875 5925 3875
-Connection ~ 6025 3775
+	3150 4000 3350 4000
+Connection ~ 6425 4625
 Wire Wire Line
-	5625 3875 5725 3875
-Connection ~ 5625 3725
+	6725 4500 6725 3950
+Connection ~ 6725 3950
 Wire Wire Line
-	4300 3325 5550 3325
+	6725 5025 6725 4700
+Connection ~ 6425 5025
 Wire Wire Line
-	5550 3325 5550 3025
+	6900 5025 6900 4700
+Connection ~ 6725 5025
 Wire Wire Line
-	5550 3025 6250 3025
+	7075 5025 7075 4700
+Connection ~ 6900 5025
 Wire Wire Line
-	6250 3025 6250 3775
-Connection ~ 6250 3775
+	7250 5025 7250 4700
+Connection ~ 7075 5025
 Wire Wire Line
-	4300 3425 4575 3425
+	7250 4500 7250 3950
+Connection ~ 7250 3950
 Wire Wire Line
-	1575 4150 1575 3325
-Connection ~ 1575 3325
+	7075 4500 7075 3950
+Connection ~ 7075 3950
 Wire Wire Line
-	1575 4350 1575 4850
-Connection ~ 1575 4850
-Wire Wire Line
-	1400 4350 1400 4850
-Connection ~ 1400 4850
-Wire Wire Line
-	1400 4150 1400 3325
-Connection ~ 1400 3325
-Connection ~ 4575 3925
-Wire Wire Line
-	5625 3075 5625 3875
-Connection ~ 5625 3075
-Wire Wire Line
-	3375 3075 2625 3075
-Wire Wire Line
-	2625 3075 2625 3325
-Connection ~ 2625 3325
-Connection ~ 5375 4850
-Wire Wire Line
-	6125 3775 6125 4075
-Connection ~ 6125 3775
-Wire Wire Line
-	6125 4375 6125 4500
-Wire Wire Line
-	6125 4850 6125 4800
-Wire Wire Line
-	6125 4450 6250 4450
-Wire Wire Line
-	6250 4450 6250 4975
-Wire Wire Line
-	6250 4975 2850 4975
-Wire Wire Line
-	2850 4975 2850 3825
-Wire Wire Line
-	2850 3825 3050 3825
-Connection ~ 6125 4450
-Wire Wire Line
-	6425 4325 6425 3775
-Connection ~ 6425 3775
-Wire Wire Line
-	6425 4850 6425 4525
-Connection ~ 6125 4850
-Wire Wire Line
-	6600 4850 6600 4525
-Connection ~ 6425 4850
-Wire Wire Line
-	6775 4850 6775 4525
-Connection ~ 6600 4850
-Wire Wire Line
-	6950 4850 6950 4525
-Connection ~ 6775 4850
-Wire Wire Line
-	6950 4325 6950 3775
-Connection ~ 6950 3775
-Wire Wire Line
-	6775 4325 6775 3775
-Connection ~ 6775 3775
-Wire Wire Line
-	6600 4325 6600 3775
-Connection ~ 6600 3775
+	6900 4500 6900 3950
+Connection ~ 6900 3950
 Wire Wire Line
 	8675 4725 8850 4725
 Wire Wire Line
@@ -1022,10 +985,6 @@ Connection ~ 8850 4725
 Wire Wire Line
 	8850 4875 8675 4875
 Wire Wire Line
-	9625 4500 9625 4625
-Wire Wire Line
-	9625 4550 9475 4550
-Wire Wire Line
 	9475 4550 9475 4675
 Wire Wire Line
 	9475 4675 9450 4675
@@ -1033,9 +992,6 @@ Wire Wire Line
 	9450 4875 9475 4875
 Wire Wire Line
 	9475 4875 9475 5000
-Wire Wire Line
-	9475 5000 9825 5000
-Connection ~ 9625 4550
 Wire Wire Line
 	2050 6825 1900 6825
 Wire Wire Line
@@ -1120,33 +1076,6 @@ Wire Wire Line
 Wire Wire Line
 	10125 6025 10275 6025
 Wire Wire Line
-	6050 6225 6050 6125
-Wire Wire Line
-	6050 6125 6425 6125
-Wire Wire Line
-	6250 6125 6250 6000
-Connection ~ 6250 6125
-Wire Wire Line
-	6425 6600 6350 6600
-Connection ~ 6425 6600
-Wire Wire Line
-	6050 6600 5975 6600
-Connection ~ 6050 6600
-Wire Wire Line
-	5900 6700 5900 6650
-Wire Wire Line
-	6050 6650 5800 6650
-Wire Wire Line
-	6425 6650 6675 6650
-Wire Wire Line
-	6575 6650 6575 6700
-Wire Wire Line
-	5800 6650 5800 6800
-Connection ~ 5900 6650
-Wire Wire Line
-	6675 6650 6675 6800
-Connection ~ 6575 6650
-Wire Wire Line
 	2050 7125 1550 7125
 Wire Wire Line
 	1550 7125 1550 6975
@@ -1158,29 +1087,6 @@ Wire Wire Line
 Connection ~ 1975 6975
 Wire Wire Line
 	1125 6975 1200 6975
-Wire Wire Line
-	6425 6125 6425 6225
-Connection ~ 6050 6650
-Connection ~ 6425 6650
-Wire Wire Line
-	6425 6525 6425 6700
-Wire Wire Line
-	6050 6700 6050 6525
-Wire Wire Line
-	5900 7100 5900 6900
-Wire Wire Line
-	6575 6900 6575 7100
-Wire Wire Line
-	6575 7100 5900 7100
-Wire Wire Line
-	6425 7000 6425 7100
-Connection ~ 6425 7100
-Wire Wire Line
-	6050 7000 6050 7100
-Connection ~ 6050 7100
-Wire Wire Line
-	6225 7100 6225 7150
-Connection ~ 6225 7100
 Wire Wire Line
 	4675 1775 4675 1875
 Wire Wire Line
@@ -1259,46 +1165,8 @@ Wire Wire Line
 	5975 2250 5975 2175
 Wire Wire Line
 	5975 2175 5875 2175
-$Comp
-L PTC F1
-U 1 1 53A0B4AA
-P 9975 5000
-F 0 "F1" H 10025 4950 40  0000 C CNN
-F 1 "PTC" H 9875 5025 40  0000 C CNN
-F 2 "" H 9975 5000 60  0000 C CNN
-F 3 "" H 9975 5000 60  0000 C CNN
-	1    9975 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9625 4925 9625 5000
-Connection ~ 9625 5000
-Wire Wire Line
-	10125 5000 10250 5000
-Text Label 10250 5000 0    60   ~ 0
-VOUT
-$Comp
-L TPD2E001DRL U2
-U 1 1 539F96A5
-P 2650 1825
-F 0 "U2" H 2750 1825 40  0000 C CNN
-F 1 "TPD2E001DRL" H 2650 2025 40  0000 C CNN
-F 2 "" H 2650 1825 60  0000 C CNN
-F 3 "" H 2650 1825 60  0000 C CNN
-	1    2650 1825
-	0    1    1    0   
-$EndComp
-$Comp
-L TPD2E001DRL U6
-U 1 1 539F96B2
-P 8450 6250
-F 0 "U6" H 8550 6250 40  0000 C CNN
-F 1 "TPD2E001DRL" H 8450 6450 40  0000 C CNN
-F 2 "" H 8450 6250 60  0000 C CNN
-F 3 "" H 8450 6250 60  0000 C CNN
-	1    8450 6250
-	1    0    0    -1  
-$EndComp
+	10075 5000 10200 5000
 Wire Wire Line
 	2550 2125 2550 2200
 Wire Wire Line
@@ -1317,61 +1185,19 @@ Wire Wire Line
 	2550 1425 2550 1525
 Wire Wire Line
 	2750 1525 2750 1425
-Text Label 2750 1425 1    60   ~ 0
-VDD
-Text Label 2750 2225 3    60   ~ 0
-VSS
 Wire Wire Line
 	2750 2125 2750 2225
-Text Label 8900 6150 0    60   ~ 0
-VSS
 Wire Wire Line
 	8750 6150 8900 6150
-Text Label 7550 6150 2    60   ~ 0
-VOUT
 Wire Wire Line
 	7550 6150 8150 6150
-Text Label 8900 6350 0    60   ~ 0
-D+
-Text Label 8000 6350 2    60   ~ 0
-D-
 Wire Wire Line
 	8000 6350 8150 6350
 Wire Wire Line
 	8900 6350 8750 6350
-Text Notes 5000 7400 0    60   ~ 0
-Currently 1% Resistors and \n5% Pot (couldn't find them smaller).\nDo you think we could do with lower \naccuracy resistors for this divider network?
-Text Notes 1000 1000 0    60   ~ 0
-Currently assuming that we do not need \nany resistor network on input D+/D-. This\nis easy to change if we find different results\nin our testing.
-Text Notes 2950 4400 0    60   ~ 0
-Connections and component \nvalues from eval \nboard for MIC2185.
-$Comp
-L C C15
-U 1 1 539F9C99
-P 7700 6250
-F 0 "C15" V 7750 6125 50  0000 L CNN
-F 1 ".1uF" V 7650 6075 50  0000 L CNN
-F 2 "" H 7700 6250 60  0000 C CNN
-F 3 "" H 7700 6250 60  0000 C CNN
-	1    7700 6250
-	1    0    0    -1  
-$EndComp
-Text Label 7700 6450 3    60   ~ 0
-VSS
 Wire Wire Line
 	7700 6450 7700 6350
 Connection ~ 7700 6150
-$Comp
-L C C6
-U 1 1 539FA04F
-P 3000 1825
-F 0 "C6" V 3050 1700 50  0000 L CNN
-F 1 ".1uF" V 2950 1650 50  0000 L CNN
-F 2 "" H 3000 1825 60  0000 C CNN
-F 3 "" H 3000 1825 60  0000 C CNN
-	1    3000 1825
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 1725 3000 1475
 Wire Wire Line
@@ -1382,56 +1208,98 @@ Wire Wire Line
 Wire Wire Line
 	3000 2175 2750 2175
 Connection ~ 2750 2175
-Text Notes 7200 5725 0    60   ~ 0
-This specific chip was chosen because \nit comes in SOT23-5 and because it provides\nESD protection on the VUSB power line as\nwell as the data lines.
-Text Notes 9500 6325 0    60   ~ 0
-USB Type A female jack
-Text Notes 775  2250 0    60   ~ 0
-USB micro type B jack
-$Comp
-L LED D15
-U 1 1 539FA40F
-P 9150 3550
-F 0 "D15" H 9250 3600 40  0000 C CNN
-F 1 "PG" H 9050 3600 40  0000 C CNN
-F 2 "~" H 9150 3550 60  0000 C CNN
-F 3 "~" H 9150 3550 60  0000 C CNN
-	1    9150 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L R R21
-U 1 1 539FA415
-P 9150 3900
-F 0 "R21" V 9225 3850 40  0000 C CNN
-F 1 "1.5k" V 9225 4000 40  0000 C CNN
-F 2 "~" V 9080 3900 30  0000 C CNN
-F 3 "~" H 9150 3900 30  0000 C CNN
-	1    9150 3900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9150 3750 9150 3650
-Wire Wire Line
-	9150 3250 9150 3450
-Text Label 9150 3250 1    60   ~ 0
-VREG
-Text Label 9150 4125 3    60   ~ 0
-VSS
-Wire Wire Line
-	9150 4125 9150 4050
 Wire Wire Line
 	4375 1325 4375 1225
 Wire Wire Line
 	4500 1225 4500 1325
-Text Notes 9325 3675 0    60   ~ 0
-Power Good LED:\nIndicates that the power source is\nsupplying power - i.e. that the\nexternal adapter is plugged in, or\nthat the battery is not fully discharged.
-Text Notes 525  5000 0    60   ~ 0
-EN/UVLO is used to turn off the device when the \nvoltage is below 1.5V. So we provide a voltage \ndivider which provides this pin with half of the \nsupply voltage. Once the supply voltage reaches \n3.0V (battery is discharged), it turns the boost \nconverter off.
-Text Notes 4050 5100 0    60   ~ 0
-Currently outputing 5V. Should we output slightly above 5V (say 5.1V) \nto account for voltage drops across resistances and wires? I measured\n the output of a few USB chargers that I own and they output slightly \nabove 5V.
-Text Notes 6325 3100 0    60   ~ 0
-Decided to stick with two MOSFETs because both the \ndatasheet and eval board suggested this. I also think \nthat it will help somewhat with heat dissipation - as \nabout half of the total power will be going through \neach mosfet. Though that may be a non issue. What \nare your thoughts?
-Text Notes 4025 2875 0    60   ~ 0
-FREQ/2 is tied to VDD, which puts the \ndevice into low frequency (200kHz) operation.
+Wire Wire Line
+	6325 4050 6325 3950
+Wire Wire Line
+	5925 3250 5925 4050
+Wire Wire Line
+	5925 4050 6025 4050
+Wire Wire Line
+	5675 4575 5625 4575
+Wire Wire Line
+	5575 4200 5425 4200
+Wire Wire Line
+	5425 4200 5425 3800
+Wire Wire Line
+	9600 4575 9600 4550
+Wire Wire Line
+	9600 4550 9475 4550
+Wire Wire Line
+	9475 5000 9600 5000
+Wire Wire Line
+	9600 5000 9600 4975
+Wire Wire Line
+	9700 4575 9700 4500
+Wire Wire Line
+	9700 4975 9700 5000
+Wire Wire Line
+	9700 5000 9775 5000
+Wire Wire Line
+	1225 3500 1300 3500
+Wire Wire Line
+	5375 6350 5275 6350
+Text Label 5275 6350 2    60   ~ 0
+VSS
+Wire Wire Line
+	5000 6450 5375 6450
+$Comp
+L R R?
+U 1 1 53A0F655
+P 4850 6450
+F 0 "R?" V 4900 6550 40  0000 C CNN
+F 1 "34.0k" V 4900 6300 40  0000 C CNN
+F 2 "~" V 4780 6450 30  0000 C CNN
+F 3 "~" H 4850 6450 30  0000 C CNN
+	1    4850 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 6450 4625 6450
+Text Label 4625 6450 2    60   ~ 0
+VSS
+Text Label 6425 6550 0    60   ~ 0
+D+
+Wire Wire Line
+	6425 6550 6275 6550
+Text Label 6425 6450 0    60   ~ 0
+D-
+Wire Wire Line
+	6425 6450 6275 6450
+Text Label 5275 6550 2    60   ~ 0
+VOUT
+Wire Wire Line
+	5275 6550 5375 6550
+Text Label 6425 6350 0    60   ~ 0
+VUSB
+Wire Wire Line
+	6425 6350 6275 6350
+Text Label 5600 6900 2    60   ~ 0
+VOUT
+$Comp
+L C C?
+U 1 1 53A0FE36
+P 5775 6900
+F 0 "C?" V 5825 6725 50  0000 L CNN
+F 1 ".1uF" V 5725 6725 50  0000 L CNN
+F 2 "" H 5775 6900 60  0000 C CNN
+F 3 "" H 5775 6900 60  0000 C CNN
+	1    5775 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5675 6900 5600 6900
+Text Label 5975 6900 0    60   ~ 0
+VSS
+Wire Wire Line
+	5975 6900 5875 6900
+Text Label 6425 6650 0    60   ~ 0
+VOUT
+Wire Wire Line
+	6425 6650 6275 6650
+Text Notes 5100 6200 0    60   ~ 0
+Limits output current to 1.507A
 $EndSCHEMATC
