@@ -1,55 +1,69 @@
-ref,value,Field1,Field2,Field3,Field4,Field5,Field6,Field7,Field8
-C1,47uF,718-1362-1-ND,Digikey,,,,,,
-C4,103,399-9858-1-ND,Digikey,,,,,,
-C6,104,399-1249-1-ND,Digikey,,,,,,
-C7,106,399-7443-1-ND,Digikey,,,,,,
-C8,102,399-4144-ND,Digikey,,,,,,
-C10,105,399-9714-ND,Digikey,,,,,,
-C12,107,718-1885-1-ND,Digikey,,,,,,
-C?,104,399-1249-1-ND,Digikey,,,,,,
-D1,LED,754-1439-1-ND,Digikey ,,,,,,
-D2,LED,754-1439-1-ND,Digikey ,,,,,,
-D3,LED,754-1439-1-ND,Digikey ,,,,,,
-D4,LED,754-1439-1-ND,Digikey ,,,,,,
-D5,LED,754-1439-1-ND,Digikey ,,,,,,
-D6,LED,754-1439-1-ND,Digikey ,,,,,,
-D7,LED,754-1439-1-ND,Digikey ,,,,,,
-D8,LED,754-1140-1-ND,Digikey ,,,,,,
-D9,LED,754-1140-1-ND,Digikey,,,,,,
-D10,LED,754-1143-1-ND,Digikey ,,,,,,
-D11,CHARGED,754-1439-1-ND,Digikey ,,,,,,
-D12,CHARGING,754-1136-1-ND,Digikey ,,,,,,
-D13,PG,754-1439-1-ND,Digikey ,,,,,,
-D14,B130,B130-E3/5ATGICT-ND,Digikey,,,,,,
-F1,3.0A PTC,F4162CT-ND,Digikey ,,,,,,
-F2,1.5A PTC,F2154CT-ND,Digikey ,,,,,,
-J1,USB-MICRO,A108263CT-ND,Digikey,,,,,,
-J2,USB,A31726-ND,Digikey,,,,,,
-L1,4.7uH,SRR1240-4R7MCT-ND,Digikey,,,,,,
-Q1,SI4174DY,SI4174DY-T1-GE3CT-ND,Digikey ,,,,,,
-Q2,SI4463CDY,78-SI4463CDY-T1-GE3,Mouser,,,,,,
-Q3,SI4463CDY,78-SI4463CDY-T1-GE3,Mouser,,,,,,
-R1,4.87k,CMF4.87KHFCT-ND,Digikey,,,,,,
-R2,130k,CMF130KQFCT-ND,Digikey,,,,,,
-R3,100k,541-100KFCT-ND,Digikey,,,,,,
-R5,10k,PPC10.0KZCT-ND,Digikey,,,,,,
-R6,4.3k,4.3KH-ND,Digikey,,,,,,
-R7,34.0k,CMF34.0KHFCT-ND,Digikey,,,,,,
-R10,.010,LVRA-.01RCT-ND,Digikey,,,,,,
-R12,1K,541-1.00KFCT-ND,Digikey,,,,,,
-R14,31.6k,541-31.6KFCT-ND,Digikey,,,,,,
-R17,.05,LVK12R050DERCT-ND,Digikey ,,,,,,
-R18,1M,PPC1.00MXCT-ND,Digikey,,,,,,
-R?,100k,541-100KFCT-ND,Digikey,,,,,,
-RT1,10K,BC2395CT-ND,Digikey,,,,,,
-U1,LM3914,LM3914N-1/NOPB-ND,Digikey ,,,,,,
-U2,TPD2E001DRL,296-21883-1-ND,Digikey,,,,,,
-U3,MIC2185,576-2162-ND,Digikey,,,,,,
-U4,MCP73833,MCP73833-FCI/UN-ND,Digikey ,,,,,,
-U5,TPD2E001DRL,296-21883-1-ND,Digikey,,,,,,
-U6,TPS2511,296-30552-1-ND,Digikey ,,,,,,
-U7,BATT,5702,batteryspace,,,,,,
-U8,LT1389,LT1389BCS8-5#PBF-ND,Digikey ,,,,,,
-U9,MAX9938T,MAX9938TEUK+TCT-ND,Digikey ,,,,,,
-U10,FDC6392S,512-FDC6392S,Digikey,,,,,,
-U?,MCP6041T-I,MCP6041T-I/SNCT-ND,Digikey,,,,,,
+ref,value,datasheet,Field1,Field2
+C1,47uF,http://www.vishay.com/doc?40080,http://www.vishay.com/doc?40080,718-1362-1-ND,Digikey
+C2,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+C3,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+C4,103,http://capacitoredge.kemet.com/capedge2/DataSheet?pn=C315C103K5R5TA7303,http://capacitoredge.kemet.com/capedge2/DataSheet?pn=C315C103K5R5TA7303,399-9858-1-ND,Digikey
+C5,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+C6,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+C7,106,http://www.kemet.com/docfinder?Partnumber=C1206C106M3RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C106M3RACTU,399-7443-1-ND,Digikey
+C8,102,http://www.kemet.com/docfinder?Partnumber=C315C102K1R5TA,http://www.kemet.com/docfinder?Partnumber=C315C102K1R5TA,399-4144-ND,Digikey
+C9,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+C10,105,http://capacitoredge.kemet.com/capedge2/DataSheet?pn=C315C105K3R5TA,http://capacitoredge.kemet.com/capedge2/DataSheet?pn=C315C105K3R5TA,399-9714-ND,Digikey
+C11,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+C12,107,http://www.vishay.com/docs/40080/tr3.pdf,http://www.vishay.com/docs/40080/tr3.pdf,718-1885-1-ND,Digikey
+C13,106,http://www.kemet.com/docfinder?Partnumber=C1206C106M3RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C106M3RACTU,399-7443-1-ND,Digikey
+C14,107,http://www.vishay.com/docs/40080/tr3.pdf,http://www.vishay.com/docs/40080/tr3.pdf,718-1885-1-ND,Digikey
+C15,107,http://www.vishay.com/docs/40080/tr3.pdf,http://www.vishay.com/docs/40080/tr3.pdf,718-1885-1-ND,Digikey
+C16,104,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,http://www.kemet.com/docfinder?Partnumber=C1206C104K5RACTU,399-1249-1-ND,Digikey
+D1,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D2,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D3,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D4,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D5,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D6,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D7,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D8,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf,754-1140-1-ND,Digikey 
+D9,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf,754-1140-1-ND,Digikey
+D10,LED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SURCK.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SURCK.pdf,754-1143-1-ND,Digikey 
+D11,CHARGED,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D12,CHARGING,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216CGCK.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216CGCK.pdf,754-1136-1-ND,Digikey 
+D13,PG,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf,754-1439-1-ND,Digikey 
+D14,B130,http://www.vishay.com/docs/88946/b120.pdf,http://www.vishay.com/docs/88946/b120.pdf,B130-E3/5ATGICT-ND,Digikey
+F1,3.0A PTC,http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf,http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf,F4162CT-ND,Digikey 
+F2,1.5A PTC,http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf,http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf,F2154CT-ND,Digikey 
+J1,USB-MICRO,http://www.digikey.com/product-detail/en/2040002-1/A108263CT-ND/4021990,http://www.digikey.com/product-detail/en/2040002-1/A108263CT-ND/4021990,A108263CT-ND,Digikey
+J2,USB,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English,A31726-ND,Digikey
+L1,4.7uH,http://www.bourns.com/data/global/pdfs/SRR1240.pdf,http://www.bourns.com/data/global/pdfs/SRR1240.pdf,SRR1240-4R7MCT-ND,Digikey
+Q1,SI4174DY,http://www.vishay.com/docs/68998/si4174dy.pdf,http://www.vishay.com/docs/68998/si4174dy.pdf,SI4174DY-T1-GE3CT-ND,Digikey 
+Q2,SI4463CDY,http://www.vishay.com/docs/67335/si4463cd.pdf,http://www.vishay.com/docs/67335/si4463cd.pdf,78-SI4463CDY-T1-GE3,Mouser
+Q3,SI4463CDY,http://www.vishay.com/docs/67335/si4463cd.pdf,http://www.vishay.com/docs/67335/si4463cd.pdf,78-SI4463CDY-T1-GE3,Mouser
+R1,4.87k,http://www.vishay.com/doc?31018,http://www.vishay.com/doc?31018,CMF4.87KHFCT-ND,Digikey
+R2,130k,http://www.vishay.com/doc?31018,http://www.vishay.com/doc?31018,CMF130KQFCT-ND,Digikey
+R3,100k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-100KFCT-ND,Digikey
+R4,100k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-100KFCT-ND,Digikey
+R5,10k,http://www.vishay.com/doc?28724,http://www.vishay.com/doc?28724,PPC10.0KZCT-ND,Digikey
+R6,4.3k,http://www.yageo.com/documents/recent/General%20Type_CFR.pdf,http://www.yageo.com/documents/recent/General%20Type_CFR.pdf,4.3KH-ND,Digikey
+R7,34.0k,http://www.vishay.com/doc?31018,http://www.vishay.com/doc?31018,CMF34.0KHFCT-ND,Digikey
+R8,4.3k,http://www.yageo.com/documents/recent/General%20Type_CFR.pdf,http://www.yageo.com/documents/recent/General%20Type_CFR.pdf,4.3KH-ND,Digikey
+R9,100k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-100KFCT-ND,Digikey
+R10,.010,http://www.vishay.com/doc?30206,http://www.vishay.com/doc?30206,LVRA-.01RCT-ND,Digikey
+R11,4.3k,http://www.yageo.com/documents/recent/General%20Type_CFR.pdf,http://www.yageo.com/documents/recent/General%20Type_CFR.pdf,4.3KH-ND,Digikey
+R12,1K,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-1.00KFCT-ND,Digikey
+R13,100k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-100KFCT-ND,Digikey
+R14,31.6k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-31.6KFCT-ND,Digikey
+R15,100k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-100KFCT-ND,Digikey
+R16,100k,http://www.vishay.com/doc?20035,http://www.vishay.com/doc?20035,541-100KFCT-ND,Digikey
+R17,.05,http://www.ohmite.com/cat/res_lvk.pdf,http://www.ohmite.com/cat/res_lvk.pdf,LVK12R050DERCT-ND,Digikey 
+R18,1M,http://www.vishay.com/doc?28722,http://www.vishay.com/doc?28722,PPC1.00MXCT-ND,Digikey
+RT1,10K,http://www.vishay.com/docs/29049/ntcle100.pdf,http://www.vishay.com/docs/29049/ntcle100.pdf,BC2395CT-ND,Digikey
+U1,LM3914,http://www.ti.com/lit/ds/symlink/lm3914.pdf,http://www.ti.com/lit/ds/symlink/lm3914.pdf,LM3914N-1/NOPB-ND,Digikey 
+U2,TPD2E001DRL,http://www.ti.com/lit/ds/symlink/tpd2e001.pdf,http://www.ti.com/lit/ds/symlink/tpd2e001.pdf,296-21883-1-ND,Digikey
+U3,MIC2185,http://www.micrel.com/_PDF/mic2185.pdf,http://www.micrel.com/_PDF/mic2185.pdf,576-2162-ND,Digikey
+U4,MCP73833,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en027983,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en027983,MCP73833-FCI/UN-ND,Digikey 
+U5,TPD2E001DRL,http://www.ti.com/lit/ds/symlink/tpd2e001.pdf,http://www.ti.com/lit/ds/symlink/tpd2e001.pdf,296-21883-1-ND,Digikey
+U6,TPS2511,http://www.ti.com/lit/ds/symlink/tps2511.pdf,http://www.ti.com/lit/ds/symlink/tps2511.pdf,296-30552-1-ND,Digikey 
+U7,BATT,http://www.batteryspace.com/prod-specs/5702_5.pdf,http://www.batteryspace.com/prod-specs/5702_5.pdf,5702,batteryspace
+U8,LT1389,http://www.linear.com/docs/1424,http://www.linear.com/docs/1424,LT1389BCS8-5#PBF-ND,Digikey 
+U9,MAX9938T,http://datasheets.maximintegrated.com/en/ds/MAX9938.pdf,http://datasheets.maximintegrated.com/en/ds/MAX9938.pdf,MAX9938TEUK+TCT-ND,Digikey 
+U10,FDC6392S,http://www.mouser.com/ds/2/149/FDC6392S-108515.pdf,http://www.mouser.com/ds/2/149/FDC6392S-108515.pdf,512-FDC6392S,Digikey
+U11,MCP6041T-I,http://ww1.microchip.com/downloads/en/DeviceDoc/21669D.pdf,http://ww1.microchip.com/downloads/en/DeviceDoc/21669D.pdf,MCP6041T-I/SNCT-ND,Digikey
