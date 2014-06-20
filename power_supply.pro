@@ -1,13 +1,8 @@
-update=Thu 19 Jun 2014 10:49:41 PM EDT
+update=6/20/2014 3:46:08 PM
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../soldering_cert
@@ -38,48 +33,10 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.127000"
 [pcbnew/libraries]
-LibDir=../kicad_libraries/PCBNEW
-LibName1=Custom Parts
-LibName2=lloyd_custom
-LibName3=Tag-Connect
-LibName4=w_battery_holders
-LibName5=w_capacitors
-LibName6=w_conn_9159
-LibName7=w_conn_av
-LibName8=w_conn_df12
-LibName9=w_conn_df13
-LibName10=w_conn_d-sub
-LibName11=w_conn_jst-ph
-LibName12=w_conn_kk100
-LibName13=w_conn_misc
-LibName14=w_conn_modu
-LibName15=w_conn_mpt
-LibName16=w_conn_panelmate
-LibName17=w_conn_pc
-LibName18=w_conn_screw
-LibName19=w_conn_strip
-LibName20=w_details
-LibName21=w_indicators
-LibName22=w_misc_comp
-LibName23=w_pin_strip
-LibName24=w_pth_circuits
-LibName25=w_pth_diodes
-LibName26=w_pth_plcc
-LibName27=w_pth_resistors
-LibName28=w_relay
-LibName29=w_smd_bga
-LibName30=w_smd_cap
-LibName31=w_smd_dil
-LibName32=w_smd_diode
-LibName33=w_smd_inductors
-LibName34=w_smd_leds
-LibName35=w_smd_lqfp
-LibName36=w_smd_plcc
-LibName37=w_smd_qfn
-LibName38=w_smd_resistors
-LibName39=w_smd_strip
-LibName40=w_smd_trans
-LibName41=w_switch
-LibName42=w_to
-LibName43=w_vacuum
-LibName44=power_supply
+LibName1=power_supply
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

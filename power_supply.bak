@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "19 jun 2014"
+Date "20 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -135,8 +135,8 @@ P 5500 4500
 F 0 "R10" V 5580 4500 40  0000 C CNN
 F 1 ".010" V 5450 4500 40  0000 C CNN
 F 2 "~" V 5430 4500 30  0000 C CNN
-F 3 "http://www.vishay.com/doc?30206" H 5500 4500 30  0001 C CNN
-F 4 "LVRA-.01RCT-ND" V 5500 4500 60  0001 C CNN "Product Number"
+F 3 "http://www.vishay.com/doc?30122" H 5500 4500 30  0001 C CNN
+F 4 "WSLP-.01CT-ND" V 5500 4500 60  0001 C CNN "Product Number"
 F 5 "Digikey" V 5500 4500 60  0001 C CNN "Vendor"
 	1    5500 4500
 	1    0    0    -1  
@@ -170,19 +170,6 @@ $EndComp
 Text Label 7125 3675 0    60   ~ 0
 VREG
 $Comp
-L C C1
-U 1 1 539FBBDB
-P 1525 4150
-F 0 "C1" V 1475 4225 50  0000 L CNN
-F 1 "47uF" V 1475 3950 50  0000 L CNN
-F 2 "" H 1525 4150 60  0000 C CNN
-F 3 "http://www.vishay.com/doc?40080" H 1525 4150 60  0001 C CNN
-F 4 "718-1362-1-ND" V 1525 4150 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 1525 4150 60  0001 C CNN "Vendor"
-	1    1525 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L INDUCTOR L1
 U 1 1 539FBFC4
 P 3800 2975
@@ -209,19 +196,6 @@ F 5 "Digikey" V 6250 4550 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
-U 1 1 539FCAEE
-P 6550 4325
-F 0 "C12" V 6500 4400 50  0000 L CNN
-F 1 "107" V 6500 4150 50  0000 L CNN
-F 2 "" H 6550 4325 60  0000 C CNN
-F 3 "http://www.vishay.com/docs/40080/tr3.pdf" H 6550 4325 60  0001 C CNN
-F 4 "718-1885-1-ND" V 6550 4325 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 6550 4325 60  0001 C CNN "Vendor"
-	1    6550 4325
-	1    0    0    -1  
-$EndComp
-$Comp
 L LM3914 U1
 U 1 1 539FF5B6
 P 2250 6425
@@ -239,7 +213,7 @@ L MAX9938 U9
 U 1 1 539FF79F
 P 9400 3475
 F 0 "U9" H 9500 3475 40  0000 C CNN
-F 1 "MAX9938T" H 9400 3675 40  0000 C CNN
+F 1 "MAX9938" H 9400 3675 40  0000 C CNN
 F 2 "" H 9350 3475 60  0000 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/MAX9938.pdf" H 9350 3475 60  0001 C CNN
 F 4 "MAX9938TEUK+TCT-ND" H 9400 3475 60  0001 C CNN "Product Number"
@@ -258,7 +232,7 @@ L LED D8
 U 1 1 53A007BC
 P 3350 6625
 F 0 "D8" H 3450 6675 40  0000 C CNN
-F 1 "LED" H 3250 6675 40  0000 C CNN
+F 1 "1200mA" H 3250 6675 40  0000 C CNN
 F 2 "~" H 3350 6625 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf" H 3350 6625 60  0001 C CNN
 F 4 "754-1140-1-ND" H 3350 6625 60  0001 C CNN "Product Number"
@@ -271,7 +245,7 @@ L LED D10
 U 1 1 53A0095C
 P 3350 6825
 F 0 "D10" H 3450 6875 40  0000 C CNN
-F 1 "LED" H 3250 6875 40  0000 C CNN
+F 1 "1500mA" H 3250 6875 40  0000 C CNN
 F 2 "~" H 3350 6825 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SURCK.pdf" H 3350 6825 60  0001 C CNN
 F 4 "754-1143-1-ND" H 3350 6825 60  0001 C CNN "Product Number"
@@ -284,7 +258,7 @@ L LED D1
 U 1 1 53A0074A
 P 3350 5925
 F 0 "D1" H 3450 5975 40  0000 C CNN
-F 1 "LED" H 3250 5975 40  0000 C CNN
+F 1 "150mA" H 3250 5975 40  0000 C CNN
 F 2 "~" H 3350 5925 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 5925 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 5925 60  0001 C CNN "Product Number"
@@ -303,23 +277,23 @@ Text Notes 1575 7025 0    60   ~ 0
 $Comp
 L USB J2
 U 1 1 53A02AE3
-P 6750 6025
-F 0 "J2" V 6700 6025 40  0000 C CNN
-F 1 "USB" H 6750 6275 40  0000 C CNN
-F 2 "~" H 6750 5875 60  0000 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English" H 6750 5875 60  0001 C CNN
-F 4 "A31726-ND" V 6750 6025 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 6750 6025 60  0001 C CNN "Vendor"
-	1    6750 6025
+P 7375 6150
+F 0 "J2" V 7325 6150 40  0000 C CNN
+F 1 "USB" H 7375 6400 40  0000 C CNN
+F 2 "~" H 7375 6000 60  0000 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1903814&DocType=Customer+Drawing&DocLang=English" H 7375 6000 60  0001 C CNN
+F 4 "A107360-ND" V 7375 6150 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 7375 6150 60  0001 C CNN "Vendor"
+	1    7375 6150
 	1    0    0    -1  
 $EndComp
-Text Label 7525 5875 0    60   ~ 0
+Text Label 8150 6000 0    60   ~ 0
 VUSB
-Text Label 7150 6175 0    60   ~ 0
+Text Label 7775 6300 0    60   ~ 0
 VSS
-Text Label 7150 5975 0    60   ~ 0
+Text Label 7775 6100 0    60   ~ 0
 D-
-Text Label 7150 6075 0    60   ~ 0
+Text Label 7775 6200 0    60   ~ 0
 D+
 $Comp
 L R R2
@@ -329,7 +303,7 @@ F 0 "R2" V 1680 6575 40  0000 C CNN
 F 1 "130k" V 1550 6575 40  0000 C CNN
 F 2 "~" V 1530 6575 30  0000 C CNN
 F 3 "http://www.vishay.com/doc?31018" H 1600 6575 30  0001 C CNN
-F 4 "CMF130KQFCT-ND" V 1600 6575 60  0001 C CNN "Product Number"
+F 4 "CMF130KHFCT-ND" V 1600 6575 60  0001 C CNN "Product Number"
 F 5 "Digikey" V 1600 6575 60  0001 C CNN "Vendor"
 	1    1600 6575
 	0    -1   -1   0   
@@ -395,8 +369,8 @@ P 6225 2225
 F 0 "RT1" V 6150 2050 40  0000 C CNN
 F 1 "10K" V 6150 2325 40  0000 C CNN
 F 2 "" H 6225 2225 60  0000 C CNN
-F 3 "http://www.vishay.com/docs/29049/ntcle100.pdf" H 6225 2225 60  0001 C CNN
-F 4 "BC2395CT-ND" V 6225 2225 60  0001 C CNN "Product Number"
+F 3 "http://www.vishay.com/doc?33008" H 6225 2225 60  0001 C CNN
+F 4 "541-1144-1-ND" V 6225 2225 60  0001 C CNN "Product Number"
 F 5 "Digikey" V 6225 2225 60  0001 C CNN "Vendor"
 	1    6225 2225
 	1    0    0    -1  
@@ -425,8 +399,8 @@ P 9575 1775
 F 0 "U10" H 9575 1475 40  0000 C CNN
 F 1 "FDC6392S" H 9575 2025 40  0000 C CNN
 F 2 "" H 9575 1675 60  0000 C CNN
-F 3 "http://www.mouser.com/ds/2/149/FDC6392S-108515.pdf" H 9575 1675 60  0001 C CNN
-F 4 "512-FDC6392S" H 9575 1775 60  0001 C CNN "Product Number"
+F 3 "http://www.fairchildsemi.com/ds/FD/FDC6392S.pdf" H 9575 1675 60  0001 C CNN
+F 4 "FDC6392SCT-ND" H 9575 1775 60  0001 C CNN "Product Number"
 F 5 "Digikey" H 9575 1775 60  0001 C CNN "Vendor"
 	1    9575 1775
 	1    0    0    -1  
@@ -484,7 +458,7 @@ F 0 "R6" V 4425 1350 40  0000 C CNN
 F 1 "4.3k" V 4425 1475 40  0000 C CNN
 F 2 "~" V 4305 1475 30  0000 C CNN
 F 3 "http://www.yageo.com/documents/recent/General%20Type_CFR.pdf" H 4375 1475 30  0001 C CNN
-F 4 "4.3KH-ND" V 4375 1475 60  0001 C CNN "Product Number"
+F 4 "4.3KQBK-ND" V 4375 1475 60  0001 C CNN "Product Number"
 F 5 "Digikey" V 4375 1475 60  0001 C CNN "Vendor"
 	1    4375 1475
 	-1   0    0    1   
@@ -496,31 +470,18 @@ VSS
 $Comp
 L PTC F2
 U 1 1 53A0B4AA
-P 7325 5875
-F 0 "F2" H 7225 5900 40  0000 C CNN
-F 1 "1.5A PTC" H 7475 5825 40  0000 C CNN
-F 2 "" H 7325 5875 60  0000 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf" H 7325 5875 60  0001 C CNN
-F 4 "F2154CT-ND" H 7325 5875 60  0001 C CNN "Product Number"
-F 5 "Digikey " H 7325 5875 60  0001 C CNN "Vendor"
-	1    7325 5875
+P 7950 6000
+F 0 "F2" H 7850 6025 40  0000 C CNN
+F 1 "1.5A PTC" H 8100 5950 40  0000 C CNN
+F 2 "" H 7950 6000 60  0000 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf" H 7950 6000 60  0001 C CNN
+F 4 "F2154CT-ND" H 7950 6000 60  0001 C CNN "Product Number"
+F 5 "Digikey " H 7950 6000 60  0001 C CNN "Vendor"
+	1    7950 6000
 	1    0    0    -1  
 $EndComp
 Text Label 10150 3700 0    60   ~ 0
 VOUT
-$Comp
-L TPD2E001DRL U2
-U 1 1 539F96A5
-P 2650 1825
-F 0 "U2" H 2750 1825 40  0000 C CNN
-F 1 "TPD2E001DRL" H 2650 2025 40  0000 C CNN
-F 2 "" H 2650 1825 60  0000 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 2650 1825 60  0001 C CNN
-F 4 "296-21883-1-ND" H 2650 1825 60  0001 C CNN "Product Number"
-F 5 "Digikey" H 2650 1825 60  0001 C CNN "Vendor"
-	1    2650 1825
-	0    1    1    0   
-$EndComp
 Text Label 2750 1425 1    60   ~ 0
 VDD
 Text Label 2750 2225 3    60   ~ 0
@@ -548,7 +509,7 @@ F 5 "Digikey" V 3000 1825 60  0001 C CNN "Vendor"
 	1    3000 1825
 	1    0    0    -1  
 $EndComp
-Text Notes 6375 6375 0    60   ~ 0
+Text Notes 7000 6500 0    60   ~ 0
 USB Type A female jack
 Text Notes 775  2250 0    60   ~ 0
 USB micro type B jack
@@ -563,23 +524,10 @@ F 3 "http://www.ohmite.com/cat/res_lvk.pdf" H 9900 3475 30  0001 C CNN
 F 4 "LVK12R050DERCT-ND" V 9900 3475 60  0001 C CNN "Product Number"
 F 5 "Digikey " V 9900 3475 60  0001 C CNN "Vendor"
 	1    9900 3475
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text Label 9950 3200 1    60   ~ 0
 VREG
-$Comp
-L TPD2E001DRL U5
-U 1 1 53A0E543
-P 5350 7050
-F 0 "U5" H 5450 7050 40  0000 C CNN
-F 1 "TPD2E001DRL" H 5350 7250 40  0000 C CNN
-F 2 "" H 5350 7050 60  0000 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 5350 7050 60  0001 C CNN
-F 4 "296-21883-1-ND" H 5350 7050 60  0001 C CNN "Product Number"
-F 5 "Digikey" H 5350 7050 60  0001 C CNN "Vendor"
-	1    5350 7050
-	1    0    0    -1  
-$EndComp
 $Comp
 L PTC F1
 U 1 1 53A0E6A4
@@ -601,8 +549,8 @@ $Comp
 L TPS2511 U6
 U 1 1 53A0F32C
 P 5425 6050
-F 0 "U6" H 5425 6000 40  0000 C CNN
-F 1 "TPS2511" H 5425 5950 40  0000 C CNN
+F 0 "U6" H 5425 6175 40  0000 C CNN
+F 1 "TPS2511" H 5425 6275 40  0000 C CNN
 F 2 "" H 5525 6050 60  0000 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2511.pdf" H 5525 6050 60  0001 C CNN
 F 4 "296-30552-1-ND" H 5425 6050 60  0001 C CNN "Product Number"
@@ -650,8 +598,8 @@ P 10375 4550
 F 0 "R18" V 10455 4550 40  0000 C CNN
 F 1 "1M" V 10325 4550 40  0000 C CNN
 F 2 "~" V 10305 4550 30  0000 C CNN
-F 3 "http://www.vishay.com/doc?28722" H 10375 4550 30  0001 C CNN
-F 4 "PPC1.00MXCT-ND" V 10375 4550 60  0001 C CNN "Product Number"
+F 3 "http://www.vishay.com/doc?31018" H 10375 4550 30  0001 C CNN
+F 4 "CMF1.00MHFCT-ND" V 10375 4550 60  0001 C CNN "Product Number"
 F 5 "Digikey" V 10375 4550 60  0001 C CNN "Vendor"
 	1    10375 4550
 	1    0    0    -1  
@@ -700,7 +648,7 @@ L LED D9
 U 1 1 53A33AC1
 P 3350 6725
 F 0 "D9" H 3450 6775 40  0000 C CNN
-F 1 "LED" H 3250 6775 40  0000 C CNN
+F 1 "1350mA" H 3250 6775 40  0000 C CNN
 F 2 "~" H 3350 6725 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf" H 3350 6725 60  0001 C CNN
 F 4 "754-1140-1-ND" H 3350 6725 60  0001 C CNN "Product Number"
@@ -713,7 +661,7 @@ L LED D2
 U 1 1 53A33F81
 P 3350 6025
 F 0 "D2" H 3450 6075 40  0000 C CNN
-F 1 "LED" H 3250 6075 40  0000 C CNN
+F 1 "300mA" H 3250 6075 40  0000 C CNN
 F 2 "~" H 3350 6025 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 6025 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 6025 60  0001 C CNN "Product Number"
@@ -726,7 +674,7 @@ L LED D3
 U 1 1 53A33F89
 P 3350 6125
 F 0 "D3" H 3450 6175 40  0000 C CNN
-F 1 "LED" H 3250 6175 40  0000 C CNN
+F 1 "450mA" H 3250 6175 40  0000 C CNN
 F 2 "~" H 3350 6125 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 6125 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 6125 60  0001 C CNN "Product Number"
@@ -739,7 +687,7 @@ L LED D4
 U 1 1 53A33F91
 P 3350 6225
 F 0 "D4" H 3450 6275 40  0000 C CNN
-F 1 "LED" H 3250 6275 40  0000 C CNN
+F 1 "600mA" H 3250 6275 40  0000 C CNN
 F 2 "~" H 3350 6225 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 6225 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 6225 60  0001 C CNN "Product Number"
@@ -752,7 +700,7 @@ L LED D5
 U 1 1 53A33F99
 P 3350 6325
 F 0 "D5" H 3450 6375 40  0000 C CNN
-F 1 "LED" H 3250 6375 40  0000 C CNN
+F 1 "750mA" H 3250 6375 40  0000 C CNN
 F 2 "~" H 3350 6325 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 6325 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 6325 60  0001 C CNN "Product Number"
@@ -765,7 +713,7 @@ L LED D6
 U 1 1 53A33FA1
 P 3350 6425
 F 0 "D6" H 3450 6475 40  0000 C CNN
-F 1 "LED" H 3250 6475 40  0000 C CNN
+F 1 "900mA" H 3250 6475 40  0000 C CNN
 F 2 "~" H 3350 6425 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 6425 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 6425 60  0001 C CNN "Product Number"
@@ -778,7 +726,7 @@ L LED D7
 U 1 1 53A33FA9
 P 3350 6525
 F 0 "D7" H 3450 6575 40  0000 C CNN
-F 1 "LED" H 3250 6575 40  0000 C CNN
+F 1 "1050mA" H 3250 6575 40  0000 C CNN
 F 2 "~" H 3350 6525 60  0000 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf" H 3350 6525 60  0001 C CNN
 F 4 "754-1439-1-ND" H 3350 6525 60  0001 C CNN "Product Number"
@@ -852,37 +800,11 @@ F 5 "Digikey" V 8725 5350 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
-U 1 1 53A34C60
-P 4500 1475
-F 0 "R8" V 4550 1350 40  0000 C CNN
-F 1 "4.3k" V 4550 1475 40  0000 C CNN
-F 2 "~" V 4430 1475 30  0000 C CNN
-F 3 "http://www.yageo.com/documents/recent/General%20Type_CFR.pdf" H 4500 1475 30  0001 C CNN
-F 4 "4.3KH-ND" V 4500 1475 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 4500 1475 60  0001 C CNN "Vendor"
-	1    4500 1475
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R11
-U 1 1 53A34C76
-P 5925 1475
-F 0 "R11" V 5975 1350 40  0000 C CNN
-F 1 "4.3k" V 5975 1475 40  0000 C CNN
-F 2 "~" V 5855 1475 30  0000 C CNN
-F 3 "http://www.yageo.com/documents/recent/General%20Type_CFR.pdf" H 5925 1475 30  0001 C CNN
-F 4 "4.3KH-ND" V 5925 1475 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 5925 1475 60  0001 C CNN "Vendor"
-	1    5925 1475
-	-1   0    0    1   
-$EndComp
-$Comp
 L OPAMP U11
 U 1 1 53A354E4
 P 9850 4800
 F 0 "U11" H 9750 4800 60  0000 C CNN
-F 1 "MCP6041T-I" H 10100 4925 40  0000 C CNN
+F 1 "MCP6041" H 10100 4925 40  0000 C CNN
 F 2 "~" H 9850 4800 60  0000 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21669D.pdf" H 9850 4800 60  0001 C CNN
 F 4 "MCP6041T-I/SNCT-ND" H 9850 4800 60  0001 C CNN "Product Number"
@@ -981,32 +903,6 @@ F 3 "http://www.kemet.com/docfinder?Partnumber=C1206C106M3RACTU" H 6575 2300 60 
 F 4 "399-7443-1-ND" H 6575 2300 60  0001 C CNN "Product Number"
 F 5 "Digikey" H 6575 2300 60  0001 C CNN "Vendor"
 	1    6575 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C14
-U 1 1 53A3674E
-P 6725 4325
-F 0 "C14" V 6675 4400 50  0000 L CNN
-F 1 "107" V 6675 4150 50  0000 L CNN
-F 2 "" H 6725 4325 60  0000 C CNN
-F 3 "http://www.vishay.com/docs/40080/tr3.pdf" H 6725 4325 60  0001 C CNN
-F 4 "718-1885-1-ND" V 6725 4325 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 6725 4325 60  0001 C CNN "Vendor"
-	1    6725 4325
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C15
-U 1 1 53A36756
-P 6900 4325
-F 0 "C15" V 6850 4400 50  0000 L CNN
-F 1 "107" V 6850 4150 50  0000 L CNN
-F 2 "" H 6900 4325 60  0000 C CNN
-F 3 "http://www.vishay.com/docs/40080/tr3.pdf" H 6900 4325 60  0001 C CNN
-F 4 "718-1885-1-ND" V 6900 4325 60  0001 C CNN "Product Number"
-F 5 "Digikey" V 6900 4325 60  0001 C CNN "Vendor"
-	1    6900 4325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1295,13 +1191,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 6825 1750 6825
 Wire Wire Line
-	7000 5875 7175 5875
+	7625 6000 7800 6000
 Wire Wire Line
-	7000 6175 7150 6175
+	7625 6300 7775 6300
 Wire Wire Line
-	7000 5975 7150 5975
+	7625 6100 7775 6100
 Wire Wire Line
-	7000 6075 7150 6075
+	7625 6200 7775 6200
 Wire Wire Line
 	1900 6725 1400 6725
 Wire Wire Line
@@ -1509,7 +1405,7 @@ Connection ~ 8725 5600
 Wire Wire Line
 	7950 4725 7950 4975
 Wire Wire Line
-	7525 5875 7475 5875
+	8150 6000 8100 6000
 Wire Wire Line
 	8725 5600 8725 5500
 Wire Wire Line
@@ -1531,4 +1427,119 @@ Wire Wire Line
 	10375 4800 10375 4700
 Wire Wire Line
 	10200 4800 10375 4800
+$Comp
+L TPD2E001DZD U2
+U 1 1 53A44FDE
+P 2650 1825
+F 0 "U2" H 2750 1825 40  0000 C CNN
+F 1 "TPD2E001" H 2650 2025 40  0000 C CNN
+F 2 "~" H 2650 1825 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 2650 1825 60  0001 C CNN
+F 4 "296-24770-1-ND" H 2650 1825 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 2650 1825 60  0001 C CNN "Vendor"
+	1    2650 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L TPD2E001DZD U5
+U 1 1 53A4504E
+P 5350 7050
+F 0 "U5" H 5450 7050 40  0000 C CNN
+F 1 "TPD2E001" H 5350 7250 40  0000 C CNN
+F 2 "~" H 5350 7050 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e001.pdf" H 5350 7050 60  0001 C CNN
+F 4 "296-24770-1-ND" H 5350 7050 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 5350 7050 60  0001 C CNN "Vendor"
+	1    5350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C12
+U 1 1 53A45576
+P 6550 4325
+F 0 "C12" V 6600 4375 40  0000 L CNN
+F 1 "107" V 6600 4175 40  0000 L CNN
+F 2 "~" H 6588 4175 30  0000 C CNN
+F 3 "http://www.vishay.com/docs/40080/tr3.pdf" H 6550 4325 60  0001 C CNN
+F 4 "718-1885-1-ND" V 6550 4325 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 6550 4325 60  0001 C CNN "Vendor"
+	1    6550 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C1
+U 1 1 53A45605
+P 1525 4150
+F 0 "C1" V 1575 4200 40  0000 L CNN
+F 1 "427" V 1575 4000 40  0000 L CNN
+F 2 "~" H 1563 4000 30  0000 C CNN
+F 3 "http://www.vishay.com/doc?40080" H 1525 4150 60  0001 C CNN
+F 4 "718-1362-1-ND" V 1525 4150 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 1525 4150 60  0001 C CNN "Vendor"
+	1    1525 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C14
+U 1 1 53A45686
+P 6725 4325
+F 0 "C14" V 6775 4375 40  0000 L CNN
+F 1 "107" V 6775 4175 40  0000 L CNN
+F 2 "~" H 6763 4175 30  0000 C CNN
+F 3 "http://www.vishay.com/docs/40080/tr3.pdf" H 6725 4325 60  0001 C CNN
+F 4 "718-1885-1-ND" V 6725 4325 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 6725 4325 60  0001 C CNN "Vendor"
+	1    6725 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C15
+U 1 1 53A4568E
+P 6900 4325
+F 0 "C15" V 6950 4375 40  0000 L CNN
+F 1 "107" V 6950 4175 40  0000 L CNN
+F 2 "~" H 6938 4175 30  0000 C CNN
+F 3 "http://www.vishay.com/docs/40080/tr3.pdf" H 6900 4325 60  0001 C CNN
+F 4 "718-1885-1-ND" V 6900 4325 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 6900 4325 60  0001 C CNN "Vendor"
+	1    6900 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 6350 5525 6350
+Wire Wire Line
+	5525 6350 5525 6450
+Connection ~ 5525 6450
+NoConn ~ 775  1625
+NoConn ~ 775  1725
+NoConn ~ 775  1825
+NoConn ~ 775  1925
+NoConn ~ 7025 6050
+NoConn ~ 7025 6250
+$Comp
+L R R8
+U 1 1 53A48B98
+P 4500 1475
+F 0 "R8" V 4550 1350 40  0000 C CNN
+F 1 "4.3k" V 4550 1475 40  0000 C CNN
+F 2 "~" V 4430 1475 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/General%20Type_CFR.pdf" H 4500 1475 30  0001 C CNN
+F 4 "4.3KQBK-ND" V 4500 1475 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 4500 1475 60  0001 C CNN "Vendor"
+	1    4500 1475
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 53A48BA0
+P 5925 1475
+F 0 "R11" V 5975 1350 40  0000 C CNN
+F 1 "4.3k" V 5975 1475 40  0000 C CNN
+F 2 "~" V 5855 1475 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/General%20Type_CFR.pdf" H 5925 1475 30  0001 C CNN
+F 4 "4.3KQBK-ND" V 5925 1475 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 5925 1475 60  0001 C CNN "Vendor"
+	1    5925 1475
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
