@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  6/20/2014 4:12:28 PM
+PCBNEW-LibModule-V1  Sat 21 Jun 2014 01:58:28 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,6 +6,7 @@ $INDEX
 A107360(USB-A)
 A108263CT(uUSB)
 BAT-18650-cylinder
+DBL_VIA
 PDIP-18
 QSOP-16
 TO-253-4
@@ -23,6 +24,7 @@ r_1206
 r_pth_2.5x6.5mm
 si4174dy
 si4463cdy
+so-16
 so-8
 sot23-5
 sot23-6
@@ -142,7 +144,7 @@ Po -3.5 -11.49
 $EndPAD
 $EndMODULE A107360(USB-A)
 $MODULE A108263CT(uUSB)
-Po 0 0 0 15 53A4931A 00000000 ~~
+Po 0 0 0 15 53A5C610 00000000 ~~
 Li A108263CT(uUSB)
 Sc 0
 AR 
@@ -166,39 +168,44 @@ DS 3.5 0.75 3.25 0.5 0.1524 21
 DS -3.25 0.5 -3.5 0.75 0.1524 21
 DS -3.5 0.75 -4 0.75 0.1524 21
 $PAD
-Sh "1" R 0.5 1.5 0 0 0
+Sh "1" R 0.45 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.3 -4.115
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "2" R 0.5 1.5 0 0 0
+Sh "2" R 0.45 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.65 -4.115
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "3" R 0.5 1.5 0 0 0
+Sh "3" R 0.45 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 -4.115
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "4" R 0.5 1.5 0 0 0
+Sh "4" R 0.45 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.65 -4.115
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "5" R 0.5 1.5 0 0 0
+Sh "5" R 0.45 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.3 -4.115
+.LocalClearance 0.1524
 $EndPAD
 $PAD
 Sh "6" C 2.25 2.25 0 0 0
@@ -230,7 +237,7 @@ Po -3.6 -3.85
 $EndPAD
 $EndMODULE A108263CT(uUSB)
 $MODULE BAT-18650-cylinder
-Po 0 0 0 15 53A4934A 00000000 ~~
+Po 0 0 0 15 53A5C323 00000000 ~~
 Li BAT-18650-cylinder
 Sc 0
 AR 
@@ -247,20 +254,43 @@ DS 9.2 -32.525 9.2 32.525 0.1524 21
 DS 9.2 32.525 -9.2 32.525 0.1524 21
 DS -9.2 32.525 -9.2 -32.525 0.1524 21
 $PAD
-Sh "1" R 9 5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
+Sh "1" R 10.16 5.08 0 0 0
+Dr 8.89 0 0 O 8.89 1.27
+At STD N 00E0FFFF
 Ne 0 ""
 Po 0 -32.525
 $EndPAD
 $PAD
-Sh "2" R 9 5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
+Sh "2" R 10.16 5.08 0 0 0
+Dr 8.89 0 0 O 8.89 1.27
+At STD N 00E0FFFF
 Ne 0 ""
 Po 0 32.525
 $EndPAD
 $EndMODULE BAT-18650-cylinder
+$MODULE DBL_VIA
+Po 0 0 0 15 53A5B647 00000000 ~~
+Li DBL_VIA
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.905 1 1 0 0.15 N I 21 N "DBL_VIA"
+T1 0 1.905 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "2" R 1.27 1.27 0 0 0
+Dr 0.635 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.635 0
+$EndPAD
+$PAD
+Sh "1" R 1.27 1.27 0 0 0
+Dr 0.635 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.635 0
+$EndPAD
+$EndMODULE DBL_VIA
 $MODULE PDIP-18
 Po 0 0 0 15 53A494AF 00000000 ~~
 Li PDIP-18
@@ -825,7 +855,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE led_1206
 $MODULE msop-10
-Po 0 0 0 15 53A4949E 00000000 ~~
+Po 0 0 0 15 53A5C7C3 00000000 ~~
 Li msop-10
 Sc 0
 AR 
@@ -838,74 +868,84 @@ DS 1.5 -1.5 1.5 1.5 0.1524 21
 DS 1.5 1.5 -1.5 1.5 0.1524 21
 DS -1.5 1.5 -1.5 -1.5 0.1524 21
 $PAD
-Sh "1" R 0.35 1.9 0 0 0
+Sh "1" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1 1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "2" R 0.35 1.9 0 0 0
+Sh "2" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.5 1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "3" R 0.35 1.9 0 0 0
+Sh "3" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "4" R 0.35 1.9 0 0 0
+Sh "4" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.5 1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "5" R 0.35 1.9 0 0 0
+Sh "5" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1 1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "6" R 0.35 1.9 0 0 0
+Sh "6" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1 -1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "7" R 0.35 1.9 0 0 0
+Sh "7" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.5 -1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "8" R 0.35 1.9 0 0 0
+Sh "8" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 -1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "9" R 0.35 1.9 0 0 0
+Sh "9" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.5 -1.975
+.LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "10" R 0.35 1.9 0 0 0
+Sh "10" R 0.33 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1 -1.975
+.LocalClearance 0.1524
 $EndPAD
 $EndMODULE msop-10
 $MODULE msop-8-powerpad
@@ -1282,6 +1322,133 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE si4463cdy
+$MODULE so-16
+Po 0 0 0 15 53A5B534 00000000 ~~
+Li so-16
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "so-16"
+T1 6.35 0 1 1 900 0.15 N V 21 N "VAL**"
+DC -4.1 0.7 -3.8 0.5 0.127 21
+DS -4.95 1.4 4.95 1.4 0.127 21
+DS -4.95 -1.95 4.95 -1.95 0.127 21
+DS 4.95 -1.95 4.95 1.95 0.127 21
+DS 4.95 1.95 -4.95 1.95 0.127 21
+DS -4.95 1.95 -4.95 -1.95 0.127 21
+$PAD
+Sh "1" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 2.794
+$EndPAD
+$PAD
+Sh "2" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 2.794
+$EndPAD
+$PAD
+Sh "3" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.794
+$EndPAD
+$PAD
+Sh "4" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.794
+$EndPAD
+$PAD
+Sh "5" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.794
+$EndPAD
+$PAD
+Sh "6" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.794
+$EndPAD
+$PAD
+Sh "7" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 2.794
+$EndPAD
+$PAD
+Sh "8" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 2.794
+$EndPAD
+$PAD
+Sh "9" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 -2.794
+$EndPAD
+$PAD
+Sh "10" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 -2.794
+$EndPAD
+$PAD
+Sh "11" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -2.794
+$EndPAD
+$PAD
+Sh "12" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -2.794
+$EndPAD
+$PAD
+Sh "13" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.794
+$EndPAD
+$PAD
+Sh "14" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -2.794
+$EndPAD
+$PAD
+Sh "15" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 -2.794
+$EndPAD
+$PAD
+Sh "16" R 0.75 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 -2.794
+$EndPAD
+$EndMODULE so-16
 $MODULE so-8
 Po 0 0 0 15 53A49564 00000000 ~~
 Li so-8

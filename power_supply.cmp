@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/20/2014 3:58:01 PM
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 21 Jun 2014 12:47:42 PM EDT
 
 BeginCmp
 TimeStamp = /53A45605;
@@ -115,70 +115,70 @@ EndCmp
 BeginCmp
 TimeStamp = /53A0074A;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = 150mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33F81;
 Reference = D2;
-ValeurCmp = LED;
+ValeurCmp = 300mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33F89;
 Reference = D3;
-ValeurCmp = LED;
+ValeurCmp = 450mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33F91;
 Reference = D4;
-ValeurCmp = LED;
+ValeurCmp = 600mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33F99;
 Reference = D5;
-ValeurCmp = LED;
+ValeurCmp = 750mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33FA1;
 Reference = D6;
-ValeurCmp = LED;
+ValeurCmp = 900mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33FA9;
 Reference = D7;
-ValeurCmp = LED;
+ValeurCmp = 1050mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A007BC;
 Reference = D8;
-ValeurCmp = LED;
+ValeurCmp = 1200mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33AC1;
 Reference = D9;
-ValeurCmp = LED;
+ValeurCmp = 1350mA;
 IdModule  = led_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A0095C;
 Reference = D10;
-ValeurCmp = LED;
+ValeurCmp = 1500mA;
 IdModule  = led_1206;
 EndCmp
 
@@ -213,28 +213,28 @@ EndCmp
 BeginCmp
 TimeStamp = /53A0E6A4;
 Reference = F1;
-ValeurCmp = 3.0A PTC;
+ValeurCmp = 3.0A;
 IdModule  = ptc_1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A0B4AA;
 Reference = F2;
-ValeurCmp = 1.5A PTC;
+ValeurCmp = 1.5A;
 IdModule  = ptc_1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /539E2DDA;
 Reference = J1;
-ValeurCmp = USB-MICRO;
+ValeurCmp = USB-IN;
 IdModule  = A108263CT(uUSB);
 EndCmp
 
 BeginCmp
 TimeStamp = /53A02AE3;
 Reference = J2;
-ValeurCmp = USB;
+ValeurCmp = USB-A;
 IdModule  = A107360(USB-A);
 EndCmp
 
@@ -269,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A04B80;
 Reference = R1;
-ValeurCmp = 4.87k;
+ValeurCmp = 4k87;
 IdModule  = r_pth_2.5x6.5mm;
 EndCmp
 
@@ -304,21 +304,21 @@ EndCmp
 BeginCmp
 TimeStamp = /53A08143;
 Reference = R6;
-ValeurCmp = 4.3k;
+ValeurCmp = 4k3;
 IdModule  = r_pth_2.5x6.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A0F655;
 Reference = R7;
-ValeurCmp = 34.0k;
+ValeurCmp = 34k;
 IdModule  = r_pth_2.5x6.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A48B98;
 Reference = R8;
-ValeurCmp = 4.3k;
+ValeurCmp = 4k3;
 IdModule  = r_pth_2.5x6.5mm;
 EndCmp
 
@@ -339,7 +339,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A48BA0;
 Reference = R11;
-ValeurCmp = 4.3k;
+ValeurCmp = 4k3;
 IdModule  = r_pth_2.5x6.5mm;
 EndCmp
 
@@ -360,7 +360,7 @@ EndCmp
 BeginCmp
 TimeStamp = /539FC6F3;
 Reference = R14;
-ValeurCmp = 31.6k;
+ValeurCmp = 31k6;
 IdModule  = r_1206;
 EndCmp
 
@@ -381,7 +381,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A0DF2D;
 Reference = R17;
-ValeurCmp = .05;
+ValeurCmp = 0.05;
 IdModule  = 1206-Kelvin;
 EndCmp
 
@@ -409,7 +409,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A44FDE;
 Reference = U2;
-ValeurCmp = TPD2E001DZD;
+ValeurCmp = TPD2E001;
 IdModule  = TO-253-4;
 EndCmp
 
@@ -417,7 +417,7 @@ BeginCmp
 TimeStamp = /539F4C11;
 Reference = U3;
 ValeurCmp = MIC2185;
-IdModule  = QSOP-16;
+IdModule  = so-16;
 EndCmp
 
 BeginCmp
@@ -430,7 +430,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A4504E;
 Reference = U5;
-ValeurCmp = TPD2E001DZD;
+ValeurCmp = TPD2E001;
 IdModule  = TO-253-4;
 EndCmp
 
@@ -458,7 +458,7 @@ EndCmp
 BeginCmp
 TimeStamp = /539FF79F;
 Reference = U9;
-ValeurCmp = MAX9938T;
+ValeurCmp = MAX9938;
 IdModule  = sot23-5;
 EndCmp
 
@@ -472,8 +472,50 @@ EndCmp
 BeginCmp
 TimeStamp = /53A354E4;
 Reference = U11;
-ValeurCmp = MCP6041T-I;
+ValeurCmp = MCP6041;
 IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5BAC3;
+Reference = V1;
+ValeurCmp = DBL_VIA;
+IdModule  = DBL_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5BAD0;
+Reference = V2;
+ValeurCmp = DBL_VIA;
+IdModule  = DBL_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5BAD6;
+Reference = V3;
+ValeurCmp = DBL_VIA;
+IdModule  = DBL_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5BADC;
+Reference = V4;
+ValeurCmp = DBL_VIA;
+IdModule  = DBL_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5BAEC;
+Reference = V5;
+ValeurCmp = DBL_VIA;
+IdModule  = DBL_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5BAFC;
+Reference = V6;
+ValeurCmp = DBL_VIA;
+IdModule  = DBL_VIA;
 EndCmp
 
 EndListe

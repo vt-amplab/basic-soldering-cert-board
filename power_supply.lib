@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 6/20/2014 2:54:19 PM
+EESchema-LIBRARY Version 2.3  Date: Sat 21 Jun 2014 12:45:48 PM EDT
 #encoding utf-8
 #
 # BATT
@@ -53,6 +53,20 @@ P 2 0 1 10  -50 20  50 20 N
 P 2 0 1 0  0 0  0 -30 N
 X + 1 0 100 75 D 40 40 1 1 B
 X - 2 0 -100 75 U 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# DBL_VIA
+#
+DEF DBL_VIA V 0 40 N Y 1 F N
+F0 "V" 0 -150 60 H V C CNN
+F1 "DBL_VIA" 0 150 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -100 0 100 -100 0 1 0 N
+X ~ 1 -50 50 100 D 50 50 1 1 B X
+X ~ 2 50 50 100 D 50 50 1 1 B X
 ENDDRAW
 ENDDEF
 #
