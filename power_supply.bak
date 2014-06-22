@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "21 jun 2014"
+Date "22 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -1610,7 +1610,7 @@ $EndComp
 Wire Wire Line
 	9550 2600 9550 2500
 Wire Wire Line
-	9500 2500 11000 2500
+	9500 2500 12000 2500
 Wire Wire Line
 	11000 2500 11000 2600
 Wire Wire Line
@@ -1646,4 +1646,72 @@ Connection ~ 9650 2500
 Text Label 9500 2500 2    60   ~ 0
 VSS
 Connection ~ 9550 2500
+$Comp
+L DBL_VIA V?
+U 1 1 53A65E51
+P 11200 2650
+F 0 "V?" H 11200 2500 60  0000 C CNN
+F 1 "DBL_VIA" H 11200 2800 60  0000 C CNN
+F 2 "DBL_VIA" H 11200 2650 60  0001 C CNN
+F 3 "" H 11200 2650 60  0000 C CNN
+	1    11200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBL_VIA V?
+U 1 1 53A65E57
+P 11450 2650
+F 0 "V?" H 11450 2500 60  0000 C CNN
+F 1 "DBL_VIA" H 11450 2800 60  0000 C CNN
+F 2 "DBL_VIA" H 11450 2650 60  0001 C CNN
+F 3 "" H 11450 2650 60  0000 C CNN
+	1    11450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBL_VIA V?
+U 1 1 53A65E5D
+P 11700 2650
+F 0 "V?" H 11700 2500 60  0000 C CNN
+F 1 "DBL_VIA" H 11700 2800 60  0000 C CNN
+F 2 "DBL_VIA" H 11700 2650 60  0001 C CNN
+F 3 "" H 11700 2650 60  0000 C CNN
+	1    11700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBL_VIA V?
+U 1 1 53A65E63
+P 11950 2650
+F 0 "V?" H 11950 2500 60  0000 C CNN
+F 1 "DBL_VIA" H 11950 2800 60  0000 C CNN
+F 2 "DBL_VIA" H 11950 2650 60  0001 C CNN
+F 3 "" H 11950 2650 60  0000 C CNN
+	1    11950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 2500 12000 2600
+Wire Wire Line
+	11900 2600 11900 2500
+Wire Wire Line
+	11750 2600 11750 2500
+Wire Wire Line
+	11650 2600 11650 2500
+Wire Wire Line
+	11500 2600 11500 2500
+Wire Wire Line
+	11400 2600 11400 2500
+Connection ~ 11000 2500
+Wire Wire Line
+	11150 2600 11150 2500
+Connection ~ 11150 2500
+Wire Wire Line
+	11250 2600 11250 2500
+Connection ~ 11250 2500
+Connection ~ 11400 2500
+Connection ~ 11500 2500
+Connection ~ 11650 2500
+Connection ~ 11750 2500
+Connection ~ 11900 2500
 $EndSCHEMATC
