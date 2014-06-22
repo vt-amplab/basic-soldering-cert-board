@@ -639,7 +639,7 @@ F 5 "Digikey " H 8325 4575 60  0001 C CNN "Vendor"
 	1    8325 4575
 	1    0    0    -1  
 $EndComp
-Text Label 9400 4950 2    60   ~ 0
+Text Label 9100 4950 3    60   ~ 0
 I_SENSE
 $Comp
 L LED D9
@@ -1405,8 +1405,6 @@ Wire Wire Line
 Wire Wire Line
 	8725 5600 8725 5500
 Wire Wire Line
-	9400 4950 9500 4950
-Wire Wire Line
 	7950 4975 8975 4975
 Wire Wire Line
 	9850 4550 9850 4250
@@ -1415,8 +1413,6 @@ Wire Wire Line
 	9850 5600 9850 5050
 Wire Wire Line
 	8050 5600 9850 5600
-Wire Wire Line
-	8975 4650 9500 4650
 Wire Wire Line
 	8975 4975 8975 4650
 Wire Wire Line
@@ -1714,4 +1710,23 @@ Connection ~ 11500 2500
 Connection ~ 11650 2500
 Connection ~ 11750 2500
 Connection ~ 11900 2500
+$Comp
+L R R19
+U 1 1 53A70602
+P 9300 4950
+F 0 "R19" V 9380 4950 40  0000 C CNN
+F 1 "100k" V 9250 4950 40  0000 C CNN
+F 2 "r_1206" V 9230 4950 30  0001 C CNN
+F 3 "http://www.vishay.com/doc?20035" H 9300 4950 30  0001 C CNN
+F 4 "541-100KFCT-ND" V 9300 4950 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 9300 4950 60  0001 C CNN "Vendor"
+	1    9300 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8975 4650 9500 4650
+Wire Wire Line
+	9100 4950 9150 4950
+Wire Wire Line
+	9450 4950 9500 4950
 $EndSCHEMATC
