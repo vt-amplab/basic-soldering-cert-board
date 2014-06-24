@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  6/24/2014 12:18:44 PM
+PCBNEW-LibModule-V1  6/24/2014 2:24:49 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +10,7 @@ DBL_VIA
 PDIP-18
 QSOP-16
 TO-253-4
+TP
 c_1206
 c_2917_tant
 c_2924_tant
@@ -598,6 +599,22 @@ Ne 0 ""
 Po -0.76 1.15
 $EndPAD
 $EndMODULE TO-253-4
+$MODULE TP
+Po 0 0 0 15 53A9C26E 00000000 ~~
+Li TP
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.778 1 1 0 0.15 N I 21 N "TP"
+T1 0 1.778 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TP
 $MODULE c_1206
 Po 0 0 0 15 53A99744 00000000 ~~
 Li c_1206
