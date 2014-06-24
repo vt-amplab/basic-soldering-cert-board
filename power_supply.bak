@@ -1779,7 +1779,7 @@ Wire Notes Line
 Wire Notes Line
 	9850 650  6300 650 
 Wire Wire Line
-	9350 850  6600 850 
+	6600 850  9600 850 
 Wire Wire Line
 	2100 1100 2200 1100
 Wire Wire Line
@@ -1954,4 +1954,21 @@ Connection ~ 8475 4975
 Wire Wire Line
 	8475 5450 8475 5600
 Connection ~ 8475 5600
+$Comp
+L DBL_VIA V?
+U 1 1 53A9D07E
+P 9550 1000
+F 0 "V?" H 9550 850 60  0000 C CNN
+F 1 "DBL_VIA" H 9550 1150 60  0000 C CNN
+F 2 "DBL_VIA" H 9550 1000 60  0001 C CNN
+F 3 "" H 9550 1000 60  0000 C CNN
+	1    9550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 850  9600 950 
+Wire Wire Line
+	9500 850  9500 950 
+Connection ~ 9350 850 
+Connection ~ 9500 850 
 $EndSCHEMATC
