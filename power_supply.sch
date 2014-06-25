@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "24 jun 2014"
+Date "25 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -1913,7 +1913,7 @@ L TP TP12
 U 1 1 53A9D252
 P 10375 4975
 F 0 "TP12" H 10525 4925 60  0000 C CNN
-F 1 "VSW_OUT" H 10500 5025 60  0000 C CNN
+F 1 "~EN DISPLAY" H 10500 5025 60  0000 C CNN
 F 2 "TP" H 10375 4975 60  0001 C CNN
 F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 10375 4975 60  0001 C CNN
 F 4 "5000K-ND" H 10375 4975 60  0001 C CNN "Product Number"
@@ -1952,7 +1952,7 @@ L TP TP8
 U 1 1 53A9D278
 P 9000 3850
 F 0 "TP8" H 9150 3800 60  0000 C CNN
-F 1 "VSENSE" H 9125 3900 60  0000 C CNN
+F 1 "I to V output" H 9125 3900 60  0000 C CNN
 F 2 "TP" H 9000 3850 60  0001 C CNN
 F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 9000 3850 60  0001 C CNN
 F 4 "5000K-ND" H 9000 3850 60  0001 C CNN "Product Number"
@@ -2004,7 +2004,7 @@ L TP TP14
 U 1 1 53A9D69D
 P 2300 850
 F 0 "TP14" H 2450 800 60  0000 C CNN
-F 1 "VDD" H 2425 900 60  0000 C CNN
+F 1 "GND" H 2425 900 60  0000 C CNN
 F 2 "TP" H 2300 850 60  0001 C CNN
 F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 2300 850 60  0001 C CNN
 F 4 "5000K-ND" H 2300 850 60  0001 C CNN "Product Number"
