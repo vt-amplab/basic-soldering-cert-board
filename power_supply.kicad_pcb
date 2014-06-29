@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2013-may-18)-stable")
 
   (general
     (links 206)
@@ -1736,14 +1736,14 @@
     )
   )
 
-  (module r_1206 (layer F.Cu) (tedit 53A99883) (tstamp 53A49A0D)
+  (module r_1206 (layer F.Cu) (tedit 53B021D6) (tstamp 53A49A0D)
     (at 179.07 129.54)
     (descr "SMT resistor, 1206")
     (path /539F9501)
     (fp_text reference R10 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2)))
     )
-    (fp_text value .010 (at 0 2.25) (layer F.SilkS)
+    (fp_text value 0.03 (at 0 2.25) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2)))
     )
     (fp_line (start 1.143 0.8128) (end 1.143 -0.8128) (layer F.SilkS) (width 0.25))

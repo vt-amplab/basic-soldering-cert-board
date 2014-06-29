@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "25 jun 2014"
+Date "29 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -133,7 +133,7 @@ L R R10
 U 1 1 539F9501
 P 5500 4500
 F 0 "R10" V 5580 4500 40  0000 C CNN
-F 1 ".010" V 5450 4500 40  0000 C CNN
+F 1 "0.03" V 5450 4500 40  0000 C CNN
 F 2 "r_1206" V 5430 4500 30  0001 C CNN
 F 3 "http://www.vishay.com/doc?30122" H 5500 4500 30  0001 C CNN
 F 4 "WSLP-.01CT-ND" V 5500 4500 60  0001 C CNN "Product Number"
