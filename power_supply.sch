@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "25 jun 2014"
+Date "26 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -27,7 +27,7 @@ P 1275 1825
 F 0 "J1" V 1150 1825 40  0000 C CNN
 F 1 "USB-IN" H 1275 2125 40  0000 C CNN
 F 2 "A108263CT(uUSB)" H 1275 1825 60  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/2040002-1/A108263CT-ND/4021990" H 1275 1825 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2040002&DocType=Customer+Drawing&DocLang=English" H 1275 1825 60  0001 C CNN
 F 4 "A108263CT-ND" V 1275 1825 60  0001 C CNN "Product Number"
 F 5 "Digikey" V 1275 1825 60  0001 C CNN "Vendor"
 	1    1275 1825
@@ -1809,7 +1809,9 @@ P 6825 3450
 F 0 "TP5" H 6975 3400 60  0000 C CNN
 F 1 "VREG" H 6950 3500 60  0000 C CNN
 F 2 "TP" H 6825 3450 60  0001 C CNN
-F 3 "" H 6825 3450 60  0000 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 6825 3450 60  0001 C CNN
+F 4 "5000K-ND" H 6825 3450 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 6825 3450 60  0001 C CNN "Vendor"
 	1    6825 3450
 	0    -1   -1   0   
 $EndComp

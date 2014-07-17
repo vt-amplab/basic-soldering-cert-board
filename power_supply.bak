@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "25 jun 2014"
+Date "26 jun 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -1809,7 +1809,9 @@ P 6825 3450
 F 0 "TP5" H 6975 3400 60  0000 C CNN
 F 1 "VREG" H 6950 3500 60  0000 C CNN
 F 2 "TP" H 6825 3450 60  0001 C CNN
-F 3 "" H 6825 3450 60  0000 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 6825 3450 60  0001 C CNN
+F 4 "5000K-ND" H 6825 3450 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 6825 3450 60  0001 C CNN "Vendor"
 	1    6825 3450
 	0    -1   -1   0   
 $EndComp
@@ -2004,7 +2006,7 @@ L TP TP14
 U 1 1 53A9D69D
 P 2300 850
 F 0 "TP14" H 2450 800 60  0000 C CNN
-F 1 "VDD" H 2425 900 60  0000 C CNN
+F 1 "GND" H 2425 900 60  0000 C CNN
 F 2 "TP" H 2300 850 60  0001 C CNN
 F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 2300 850 60  0001 C CNN
 F 4 "5000K-ND" H 2300 850 60  0001 C CNN "Product Number"
