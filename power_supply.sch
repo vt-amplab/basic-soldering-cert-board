@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "17 jul 2014"
+Date "30 jul 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -585,7 +585,7 @@ Text Label 5225 5975 2    60   ~ 0
 VOUT
 Text Label 5600 5975 0    60   ~ 0
 VSS
-Text Label 6050 5725 0    60   ~ 0
+Text Label 6425 5725 0    60   ~ 0
 VOUT
 Text Notes 4725 5275 0    60   ~ 0
 Limits output current to 1.507A
@@ -2014,4 +2014,40 @@ F 5 "Digikey" H 2300 850 60  0001 C CNN "Vendor"
 	1    2300 850 
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R20
+U 1 1 53D94605
+P 6200 5725
+F 0 "R20" V 6280 5725 40  0000 C CNN
+F 1 "100k" V 6150 5725 40  0000 C CNN
+F 2 "r_1206" V 6130 5725 30  0001 C CNN
+F 3 "http://www.vishay.com/doc?20035" H 6200 5725 30  0001 C CNN
+F 4 "541-100KFCT-ND" V 6200 5725 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 6200 5725 60  0001 C CNN "Vendor"
+	1    6200 5725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6425 5725 6350 5725
+$Comp
+L C C18
+U 1 1 53D965A6
+P 5450 5100
+F 0 "C18" V 5500 4975 50  0000 L CNN
+F 1 "226" V 5400 4925 50  0000 L CNN
+F 2 "c_1206" H 5450 5100 60  0001 C CNN
+F 3 "http://www.samsungsem.com/servlet/FileDownload?type=spec&file=CL31B226KPHNNNE.pdf" H 5450 5100 60  0001 C CNN
+F 4 "1276-2769-1-ND" V 5450 5100 60  0001 C CNN "Product Number"
+F 5 "Digikey" V 5450 5100 60  0001 C CNN "Vendor"
+	1    5450 5100
+	0    -1   -1   0   
+$EndComp
+Text Label 5300 5100 2    60   ~ 0
+VUSB
+Wire Wire Line
+	5300 5100 5350 5100
+Wire Wire Line
+	5550 5100 5650 5100
+Text Label 5650 5100 0    60   ~ 0
+VSS
 $EndSCHEMATC

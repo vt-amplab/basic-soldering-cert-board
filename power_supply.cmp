@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/24/2014 2:25:01 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/30/2014 5:20:56 PM
 
 BeginCmp
 TimeStamp = /53A45605;
 Reference = C1;
-ValeurCmp = 427;
+ValeurCmp = 477;
 IdModule  = c_2917_tant;
 EndCmp
 
@@ -116,6 +116,13 @@ BeginCmp
 TimeStamp = /53A9C9BF;
 Reference = C17;
 ValeurCmp = 104;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D965A6;
+Reference = C18;
+ValeurCmp = 226;
 IdModule  = c_1206;
 EndCmp
 
@@ -339,7 +346,7 @@ EndCmp
 BeginCmp
 TimeStamp = /539F9501;
 Reference = R10;
-ValeurCmp = .010;
+ValeurCmp = 0.03;
 IdModule  = r_1206;
 EndCmp
 
@@ -407,9 +414,16 @@ IdModule  = r_1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /53D94605;
+Reference = R20;
+ValeurCmp = 100k;
+IdModule  = r_1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /53A08106;
 Reference = RT1;
-ValeurCmp = 10K;
+ValeurCmp = 10K THERMISTOR;
 IdModule  = r_1206;
 EndCmp
 
@@ -421,21 +435,21 @@ IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9BA2E;
+TimeStamp = /53A9D1FA;
 Reference = TP2;
 ValeurCmp = VUSB;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9BBA0;
+TimeStamp = /53A9D210;
 Reference = TP3;
 ValeurCmp = D-;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9BD14;
+TimeStamp = /53A9D226;
 Reference = TP4;
 ValeurCmp = D+;
 IdModule  = TP;
@@ -449,58 +463,65 @@ IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9ABF0;
+TimeStamp = /53A9D28E;
 Reference = TP6;
 ValeurCmp = VBAT;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9C03D;
+TimeStamp = /53A9D23C;
 Reference = TP7;
 ValeurCmp = VSW_REF;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9B73A;
+TimeStamp = /53A9D278;
 Reference = TP8;
-ValeurCmp = VSENSE;
+ValeurCmp = I to V output;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9B185;
+TimeStamp = /53A9D270;
 Reference = TP9;
 ValeurCmp = RS-;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9B01C;
+TimeStamp = /53A9D48F;
 Reference = TP10;
 ValeurCmp = RS+;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9AEB5;
+TimeStamp = /53A9D2C0;
 Reference = TP11;
 ValeurCmp = VSYS;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9B8B3;
+TimeStamp = /53A9D252;
 Reference = TP12;
-ValeurCmp = VSW_OUT;
+ValeurCmp = ~EN DISPLAY;
 IdModule  = TP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A9B5CD;
+TimeStamp = /53A9D25A;
 Reference = TP13;
 ValeurCmp = VDISP;
+IdModule  = TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9D69D;
+Reference = TP14;
+ValeurCmp = GND;
 IdModule  = TP;
 EndCmp
 
