@@ -1,0 +1,10 @@
+Changes from rev 1 in packages:
+Change 34k current setting resistor on TPS2511 from through hole to 1206
+
+Corrections from rev 1:
+Changed regulator Rsense from .01 -> .03
+
+Still to do:
+Add more gnd test points
+Add more test points
+Add breaks into power path.
