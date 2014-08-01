@@ -1870,15 +1870,15 @@ $EndComp
 $Comp
 L TP TP9
 U 1 1 53A9D270
-P 9775 3875
-F 0 "TP9" H 9925 3825 60  0000 C CNN
-F 1 "RS-" H 9900 3925 60  0000 C CNN
-F 2 "TP" H 9775 3875 60  0001 C CNN
-F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 9775 3875 60  0001 C CNN
-F 4 "5000K-ND" H 9775 3875 60  0001 C CNN "Product Number"
-F 5 "Digikey" H 9775 3875 60  0001 C CNN "Vendor"
-	1    9775 3875
-	0    1    1    0   
+P 9800 3075
+F 0 "TP9" H 9950 3025 60  0000 C CNN
+F 1 "RS-" H 9925 3125 60  0000 C CNN
+F 2 "TP" H 9800 3075 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 9800 3075 60  0001 C CNN
+F 4 "5000K-ND" H 9800 3075 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 9800 3075 60  0001 C CNN "Vendor"
+	1    9800 3075
+	0    -1   -1   0   
 $EndComp
 $Comp
 L TP TP8
@@ -1922,15 +1922,15 @@ $EndComp
 $Comp
 L TP TP10
 U 1 1 53A9D48F
-P 9800 3075
-F 0 "TP10" H 9950 3025 60  0000 C CNN
-F 1 "RS+" H 9925 3125 60  0000 C CNN
-F 2 "TP" H 9800 3075 60  0001 C CNN
-F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 9800 3075 60  0001 C CNN
-F 4 "5000K-ND" H 9800 3075 60  0001 C CNN "Product Number"
-F 5 "Digikey" H 9800 3075 60  0001 C CNN "Vendor"
-	1    9800 3075
-	0    -1   -1   0   
+P 9775 3875
+F 0 "TP10" H 9925 3825 60  0000 C CNN
+F 1 "RS+" H 9900 3925 60  0000 C CNN
+F 2 "TP" H 9775 3875 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 9775 3875 60  0001 C CNN
+F 4 "5000K-ND" H 9775 3875 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 9775 3875 60  0001 C CNN "Vendor"
+	1    9775 3875
+	0    1    1    0   
 $EndComp
 $Comp
 L TP TP14
