@@ -1348,13 +1348,7 @@ Connection ~ 9100 3425
 Wire Wire Line
 	9100 3575 8925 3575
 Wire Wire Line
-	9725 3250 9725 3375
-Wire Wire Line
-	9725 3375 9700 3375
-Wire Wire Line
-	9700 3575 9725 3575
-Wire Wire Line
-	9725 3575 9725 3700
+	9725 3375 9725 3700
 Wire Wire Line
 	1900 6425 1750 6425
 Wire Wire Line
@@ -1550,8 +1544,6 @@ Wire Wire Line
 	5250 3925 5250 3525
 Wire Wire Line
 	9850 3275 9850 3250
-Wire Wire Line
-	9850 3250 9725 3250
 Wire Wire Line
 	9725 3700 9850 3700
 Wire Wire Line
@@ -2069,4 +2061,12 @@ Wire Wire Line
 	1675 1825 2950 1825
 Wire Wire Line
 	2950 1825 2950 1725
+Wire Wire Line
+	9725 3375 9700 3375
+Wire Wire Line
+	9750 3575 9700 3575
+Wire Wire Line
+	9850 3250 9750 3250
+Wire Wire Line
+	9750 3250 9750 3575
 $EndSCHEMATC
