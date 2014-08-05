@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Power Pack"
-Date "1 aug 2014"
+Date "4 aug 2014"
 Rev "2"
 Comp "AMP Lab"
 Comment1 "Basic Soldering Certification board"
@@ -94,7 +94,7 @@ L C C8
 U 1 1 539F82E5
 P 4550 4375
 F 0 "C8" V 4500 4450 50  0000 L CNN
-F 1 "102" V 4500 4200 50  0000 L CNN
+F 1 "104" V 4500 4200 50  0000 L CNN
 F 2 "cp_2.54mm" H 4550 4375 60  0001 C CNN
 F 3 "http://www.kemet.com/docfinder?Partnumber=C315C102K1R5TA" H 4550 4375 60  0001 C CNN
 F 4 "399-4144-ND" V 4550 4375 60  0001 C CNN "Product Number"
@@ -742,7 +742,7 @@ L R R9
 U 1 1 53A34882
 P 5300 4300
 F 0 "R9" V 5380 4300 40  0000 C CNN
-F 1 "100k" V 5250 4300 40  0000 C CNN
+F 1 "1k" V 5250 4300 40  0000 C CNN
 F 2 "r_1206" V 5230 4300 30  0001 C CNN
 F 3 "http://www.vishay.com/doc?20035" H 5300 4300 30  0001 C CNN
 F 4 "541-100KFCT-ND" V 5300 4300 60  0001 C CNN "Product Number"
@@ -1072,39 +1072,6 @@ F 3 "" H 8300 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DBL_VIA V8
-U 1 1 53A65E57
-P 8550 1000
-F 0 "V8" H 8550 850 60  0000 C CNN
-F 1 "DBL_VIA" H 8550 1150 60  0000 C CNN
-F 2 "DBL_VIA" H 8550 1000 60  0001 C CNN
-F 3 "" H 8550 1000 60  0000 C CNN
-	1    8550 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L DBL_VIA V9
-U 1 1 53A65E5D
-P 8800 1000
-F 0 "V9" H 8800 850 60  0000 C CNN
-F 1 "DBL_VIA" H 8800 1150 60  0000 C CNN
-F 2 "DBL_VIA" H 8800 1000 60  0001 C CNN
-F 3 "" H 8800 1000 60  0000 C CNN
-	1    8800 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L DBL_VIA V10
-U 1 1 53A65E63
-P 9050 1000
-F 0 "V10" H 9050 850 60  0000 C CNN
-F 1 "DBL_VIA" H 9050 1150 60  0000 C CNN
-F 2 "DBL_VIA" H 9050 1000 60  0001 C CNN
-F 3 "" H 9050 1000 60  0000 C CNN
-	1    9050 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R19
 U 1 1 53A70602
 P 9300 4950
@@ -1211,7 +1178,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4750 2800 4475
 Wire Wire Line
-	1050 4750 7075 4750
+	1050 4750 7175 4750
 Connection ~ 2800 4750
 Wire Wire Line
 	4550 4275 4550 3925
@@ -1279,7 +1246,7 @@ Connection ~ 6375 3675
 Wire Wire Line
 	4425 3325 4700 3325
 Wire Wire Line
-	1700 4050 1700 3225
+	1700 3100 1700 4050
 Connection ~ 1700 3225
 Wire Wire Line
 	1700 4250 1700 4750
@@ -1537,7 +1504,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3775 5850 3775
 Wire Wire Line
-	5500 4300 5450 4300
+	5450 4300 5600 4300
 Wire Wire Line
 	5400 3925 5250 3925
 Wire Wire Line
@@ -1611,8 +1578,6 @@ Connection ~ 9850 4250
 Wire Wire Line
 	9850 5600 9850 5050
 Wire Wire Line
-	8050 5600 9850 5600
-Wire Wire Line
 	8975 4975 8975 4650
 Wire Wire Line
 	10375 4700 10375 4875
@@ -1659,18 +1624,6 @@ Wire Wire Line
 	6750 950  6750 850 
 Connection ~ 6750 850 
 Connection ~ 6650 850 
-Wire Wire Line
-	9100 850  9100 950 
-Wire Wire Line
-	9000 950  9000 850 
-Wire Wire Line
-	8850 950  8850 850 
-Wire Wire Line
-	8750 950  8750 850 
-Wire Wire Line
-	8600 950  8600 850 
-Wire Wire Line
-	8500 950  8500 850 
 Connection ~ 8100 850 
 Wire Wire Line
 	8250 950  8250 850 
@@ -1768,21 +1721,6 @@ Connection ~ 8475 4975
 Wire Wire Line
 	8475 5450 8475 5600
 Connection ~ 8475 5600
-$Comp
-L DBL_VIA V12
-U 1 1 53A9D07E
-P 9550 1000
-F 0 "V12" H 9550 850 60  0000 C CNN
-F 1 "DBL_VIA" H 9550 1150 60  0000 C CNN
-F 2 "DBL_VIA" H 9550 1000 60  0001 C CNN
-F 3 "" H 9550 1000 60  0000 C CNN
-	1    9550 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 850  9600 950 
-Wire Wire Line
-	9500 850  9500 950 
 Connection ~ 9350 850 
 Connection ~ 9500 850 
 Wire Wire Line
@@ -2004,7 +1942,7 @@ Connection ~ 2950 1525
 Wire Wire Line
 	5350 7100 5350 6850
 Wire Wire Line
-	5350 6850 5625 6850
+	5225 6850 5625 6850
 Connection ~ 5350 7100
 Wire Wire Line
 	5825 6850 6250 6850
@@ -2069,4 +2007,138 @@ Wire Wire Line
 	9850 3250 9750 3250
 Wire Wire Line
 	9750 3250 9750 3575
+$Comp
+L TP TP21
+U 1 1 53DFDC97
+P 10050 5600
+F 0 "TP21" H 10200 5550 60  0000 C CNN
+F 1 "GND" H 10175 5650 60  0000 C CNN
+F 2 "TP" H 10050 5600 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 10050 5600 60  0001 C CNN
+F 4 "5000K-ND" H 10050 5600 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 10050 5600 60  0001 C CNN "Vendor"
+	1    10050 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 5600
+$Comp
+L TP TP18
+U 1 1 53DFDCC0
+P 7275 4750
+F 0 "TP18" H 7425 4700 60  0000 C CNN
+F 1 "GND" H 7400 4800 60  0000 C CNN
+F 2 "TP" H 7275 4750 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 7275 4750 60  0001 C CNN
+F 4 "5000K-ND" H 7275 4750 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 7275 4750 60  0001 C CNN "Vendor"
+	1    7275 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7075 4750
+Wire Wire Line
+	8050 5600 9950 5600
+$Comp
+L TP TP15
+U 1 1 53DFDE5C
+P 1275 4925
+F 0 "TP15" H 1425 4875 60  0000 C CNN
+F 1 "GND" H 1400 4975 60  0000 C CNN
+F 2 "TP" H 1275 4925 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 1275 4925 60  0001 C CNN
+F 4 "5000K-ND" H 1275 4925 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 1275 4925 60  0001 C CNN "Vendor"
+	1    1275 4925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 4825 1275 4750
+Connection ~ 1275 4750
+$Comp
+L TP TP19
+U 1 1 53DFDFEB
+P 8150 5775
+F 0 "TP19" H 8300 5725 60  0000 C CNN
+F 1 "GND" H 8275 5825 60  0000 C CNN
+F 2 "TP" H 8150 5775 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 8150 5775 60  0001 C CNN
+F 4 "5000K-ND" H 8150 5775 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 8150 5775 60  0001 C CNN "Vendor"
+	1    8150 5775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 5675 8150 5600
+Connection ~ 8150 5600
+$Comp
+L TP TP17
+U 1 1 53DFE17C
+P 5125 6850
+F 0 "TP17" H 5275 6800 60  0000 C CNN
+F 1 "GND" H 5250 6900 60  0000 C CNN
+F 2 "TP" H 5125 6850 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 5125 6850 60  0001 C CNN
+F 4 "5000K-ND" H 5125 6850 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 5125 6850 60  0001 C CNN "Vendor"
+	1    5125 6850
+	-1   0    0    1   
+$EndComp
+Connection ~ 5350 6850
+$Comp
+L TP TP20
+U 1 1 53DFE30F
+P 9000 3200
+F 0 "TP20" H 9150 3150 60  0000 C CNN
+F 1 "GND" H 9125 3250 60  0000 C CNN
+F 2 "TP" H 9000 3200 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 9000 3200 60  0001 C CNN
+F 4 "5000K-ND" H 9000 3200 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 9000 3200 60  0001 C CNN "Vendor"
+	1    9000 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 3300 9000 3425
+Connection ~ 9000 3425
+$Comp
+L TP TP16
+U 1 1 53DFE4B9
+P 1700 3000
+F 0 "TP16" H 1850 2950 60  0000 C CNN
+F 1 "VSYS protected" H 1825 3050 60  0000 C CNN
+F 2 "TP" H 1700 3000 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 1700 3000 60  0001 C CNN
+F 4 "5000K-ND" H 1700 3000 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 1700 3000 60  0001 C CNN "Vendor"
+	1    1700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TP TP22
+U 1 1 53E01F53
+P 5700 4300
+F 0 "TP22" H 5850 4250 60  0000 C CNN
+F 1 "L current" H 5825 4350 60  0000 C CNN
+F 2 "TP" H 5700 4300 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 5700 4300 60  0001 C CNN
+F 4 "5000K-ND" H 5700 4300 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 5700 4300 60  0001 C CNN "Vendor"
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP TP?
+U 1 1 53E024FD
+P 5600 5100
+F 0 "TP?" H 5750 5050 60  0000 C CNN
+F 1 "FB voltage" H 5725 5150 60  0000 C CNN
+F 2 "TP" H 5600 5100 60  0001 C CNN
+F 3 "http://www.keyelco.com/userAssets/file/M60-2p60.pdf" H 5600 5100 60  0001 C CNN
+F 4 "5000K-ND" H 5600 5100 60  0001 C CNN "Product Number"
+F 5 "Digikey" H 5600 5100 60  0001 C CNN "Vendor"
+	1    5600 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 5000 5600 4875
+Connection ~ 5600 4875
 $EndSCHEMATC
